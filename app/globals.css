@@ -12,30 +12,7 @@ html {
 
 body {
   @apply bg-midnight font-body text-white antialiased;
-  background:
-    radial-gradient(circle at top, rgba(215, 173, 87, 0.24), transparent 24%),
-    radial-gradient(circle at 18% 0%, rgba(157, 202, 230, 0.22), transparent 20%),
-    radial-gradient(circle at 82% 12%, rgba(255, 255, 255, 0.09), transparent 16%),
-    repeating-linear-gradient(
-      90deg,
-      rgba(24, 70, 41, 0.34) 0px,
-      rgba(24, 70, 41, 0.34) 84px,
-      rgba(16, 49, 29, 0.48) 84px,
-      rgba(16, 49, 29, 0.48) 168px
-    ),
-    linear-gradient(180deg, #07160d 0%, #0d2818 42%, #123720 100%);
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(circle at 50% 110%, rgba(244, 235, 208, 0.18), transparent 32%),
-    linear-gradient(90deg, transparent 49.3%, rgba(244, 235, 208, 0.14) 49.6%, transparent 50.1%),
-    linear-gradient(0deg, transparent 74%, rgba(244, 235, 208, 0.08) 74.4%, transparent 75%);
-  mask-image: radial-gradient(circle at center, black, transparent 84%);
+  background: #05080f;
 }
 
 * {
@@ -57,7 +34,7 @@ body::before {
     @apply rounded-[28px] border shadow-glow backdrop-blur-xl;
     border-color: rgba(244, 235, 208, 0.12);
     background:
-      linear-gradient(180deg, rgba(17, 53, 31, 0.88), rgba(8, 26, 16, 0.9)),
+      linear-gradient(180deg, rgba(14, 22, 35, 0.88), rgba(5, 10, 18, 0.92)),
       radial-gradient(circle at top, rgba(255, 255, 255, 0.08), transparent 34%);
   }
 
@@ -78,5 +55,71 @@ body::before {
       0 0 0 1px rgba(244, 235, 208, 0.09),
       inset 0 0 0 1px rgba(244, 235, 208, 0.04),
       0 26px 60px rgba(2, 14, 8, 0.42);
+  }
+
+  .professional-background {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(140deg, rgba(5, 8, 15, 0.98) 0%, rgba(8, 21, 31, 0.96) 45%, rgba(8, 15, 14, 0.98) 100%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent 34%);
+  }
+
+  .professional-background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 72px 72px;
+    mask-image: linear-gradient(180deg, transparent, black 16%, black 82%, transparent);
+  }
+
+  .professional-particles {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  .particle-dot {
+    position: absolute;
+    left: var(--particle-left);
+    top: var(--particle-top);
+    width: var(--particle-size);
+    height: var(--particle-size);
+    border-radius: 9999px;
+    background: var(--particle-color);
+    opacity: var(--particle-opacity);
+    box-shadow: 0 0 14px color-mix(in srgb, var(--particle-color), transparent 36%);
+    animation:
+      particle-drift var(--particle-duration) ease-in-out var(--particle-delay) infinite alternate,
+      particle-twinkle 3.8s ease-in-out var(--particle-delay) infinite;
+  }
+}
+
+@keyframes particle-drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(var(--particle-travel), calc(var(--particle-travel) * -0.7), 0);
+  }
+}
+
+@keyframes particle-twinkle {
+  0%,
+  100% {
+    filter: saturate(0.85);
+    opacity: calc(var(--particle-opacity) * 0.6);
+  }
+
+  50% {
+    filter: saturate(1.25);
+    opacity: var(--particle-opacity);
   }
 }
