@@ -11,7 +11,7 @@ import "@fontsource/space-grotesk/700.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "IPL Mind Reader AI",
+  title: "AI IPL Akinator",
   description: "A cricket-themed IPL player guessing experience with stadium visuals and matchday energy."
 };
 

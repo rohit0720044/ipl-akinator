@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "/", label: "Home", icon: Sparkles },
-  { href: "/play", label: "Mind Reader", icon: BrainCircuit },
+  { href: "/play", label: "IPL Akinator", icon: BrainCircuit },
   { href: "/admin", label: "Admin", icon: Shield }
 ] as const;
 
@@ -24,7 +24,7 @@ export function TopNav() {
           </div>
           <div>
             <p className="font-display text-base uppercase tracking-[0.3em] text-white sm:text-lg">
-              IPL Mind Reader AI
+              AI IPL Akinator
             </p>
             <p className="font-accent text-xs uppercase tracking-[0.25em] text-amber-100/75">
               Matchday Pavilion

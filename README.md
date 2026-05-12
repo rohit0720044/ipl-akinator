@@ -1,4 +1,4 @@
-# IPL Mind Reader AI
+# AI IPL Akinator
 
 A futuristic IPL player guessing web app inspired by Akinator, built with Next.js, React, Tailwind CSS, Framer Motion, and Three.js.
 

@@ -22,8 +22,8 @@ export default async function HomePage() {
             <Sparkles className="h-5 w-5" />
             <p className="font-accent text-xs uppercase tracking-[0.32em]">Matchday Pavilion</p>
           </div>
-          <h1 className="mt-6 max-w-4xl font-display text-4xl uppercase leading-[1.05] tracking-[0.12em] sm:text-6xl xl:text-7xl">
-            IPL Mind Reader AI
+          <h1 className="mt-6 max-w-4xl font-display text-4xl font-black uppercase leading-[1.05] tracking-[0.12em] sm:text-6xl xl:text-7xl">
+            AI IPL Akinator
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/74">
             Think of any IPL player and let AI guess. The experience now feels like walking through a live cricket
@@ -32,7 +32,7 @@ export default async function HomePage() {
           <div className="mt-8 flex flex-wrap gap-4">
             <Link href="/play">
               <NeonButton>
-                Start Mind Reading
+                <span className="font-bold">Start IPL Akinator</span>
                 <ArrowRight className="ml-2 inline h-4 w-4" />
               </NeonButton>
             </Link>
