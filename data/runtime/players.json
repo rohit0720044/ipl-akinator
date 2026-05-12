@@ -10,9 +10,11 @@
     "bowlingStyle": "Right-arm medium",
     "traits": [
       "legend",
+      "captain",
       "wicketkeeper",
       "finisher",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Iconic finisher and master strategist with one of the calmest minds in cricket.",
@@ -35,41 +37,6 @@
     "introTag": "the wicketkeeper-batter"
   },
   {
-    "id": "csk-suresh-raina",
-    "teamId": "csk",
-    "name": "Suresh Raina",
-    "role": "Batsman",
-    "jerseyNumber": 3,
-    "country": "India",
-    "age": 39,
-    "battingStyle": "Left-hand bat",
-    "bowlingStyle": "Right-arm off break",
-    "traits": [
-      "left-hander",
-      "aggressive",
-      "middle-order",
-      "legend",
-      "match-winner"
-    ],
-    "bio": "One of CSK's defining batters, famous for fast starts and big playoff knocks.",
-    "achievements": [
-      "Mr. IPL",
-      "Multiple IPL titles",
-      "CSK legend"
-    ],
-    "voiceIntro": "Hey, I'm Suresh Raina, a featured 2026 famous-player pick for CSK.",
-    "stats": {
-      "matches": 205,
-      "runs": 5528,
-      "wickets": 25,
-      "strikeRate": 136.8,
-      "battingAverage": 32.5,
-      "bestPerformance": "100* vs PBKS"
-    },
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Suresh_Raina_grace_the_%27Salaam_Sachin%27_conclave.jpg",
-    "introTag": "the batting option"
-  },
-  {
     "name": "Ravindra Jadeja",
     "teamId": "csk",
     "role": "All-Rounder",
@@ -83,7 +50,8 @@
       "left-hander",
       "spin",
       "match-winner",
-      "legend"
+      "legend",
+      "active"
     ],
     "bio": "World-class all-rounder who changes games with bat, ball, and electric fielding.",
     "achievements": [
@@ -115,10 +83,12 @@
     "bowlingStyle": "Right-arm off break",
     "traits": [
       "anchor",
+      "captain",
       "opener",
       "youngster",
       "match-winner",
-      "captain",
+      "current-captain",
+      "active",
       "middle-order"
     ],
     "bio": "Elegant top-order batter who keeps the innings calm before accelerating.",
@@ -154,7 +124,8 @@
       "all-rounder",
       "spin",
       "match-winner",
-      "legend"
+      "legend",
+      "active"
     ],
     "bio": "Thinking cricketer and off-spinner who wins tactical battles in the middle overs.",
     "achievements": [
@@ -188,7 +159,8 @@
       "left-hander",
       "all-rounder",
       "pace",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Left-arm seam all-rounder who adds balance in both innings.",
     "achievements": [
@@ -222,7 +194,8 @@
       "aggressive",
       "middle-order",
       "all-rounder",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Clean six-hitter who can turn the middle overs into a launch pad.",
     "achievements": [
@@ -257,6 +230,7 @@
       "anchor",
       "wicketkeeper",
       "opener",
+      "active",
       "middle-order"
     ],
     "bio": "Technically polished left-hander who anchors and finishes smartly.",
@@ -288,7 +262,8 @@
       "finisher",
       "middle-order",
       "all-rounder",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Powerful middle-order hitter known for clearing long boundaries and finishing high-pressure chases.",
     "achievements": [
@@ -327,7 +302,8 @@
       "left-hander",
       "all-rounder",
       "spin",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Utility all-rounder who balances the side with spin, muscle, and calm finishing.",
     "achievements": [
@@ -363,6 +339,7 @@
       "india-captain",
       "opener",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "One of the greatest batters of his era, blending hunger, class, and intensity.",
@@ -397,7 +374,9 @@
       "aggressive",
       "middle-order",
       "match-winner",
-      "captain"
+      "captain",
+      "current-captain",
+      "active"
     ],
     "bio": "Stylish middle-order batter who thrives when the scoring rate climbs.",
     "achievements": [
@@ -427,7 +406,8 @@
       "pace",
       "powerplay-specialist",
       "death-bowler",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Tall Australian quick who hits hard lengths, controls the powerplay, and brings big-match composure.",
     "achievements": [
@@ -466,6 +446,7 @@
       "wicketkeeper",
       "aggressive",
       "opener",
+      "active",
       "middle-order"
     ],
     "bio": "Aggressive wicketkeeper-opener who puts bowlers on the back foot immediately.",
@@ -496,7 +477,8 @@
       "all-rounder",
       "middle-order",
       "pace",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Tall seam-bowling all-rounder who can bat in the top order and change games with clean hitting.",
     "achievements": [
@@ -534,7 +516,8 @@
       "pace",
       "powerplay-specialist",
       "legend",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Swing bowler with an elite new-ball record and calm temperament.",
     "achievements": [
@@ -563,7 +546,8 @@
       "pace",
       "powerplay-specialist",
       "all-rounder",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Swing bowler who attacks with the new ball and adds useful lower-order hitting.",
     "achievements": [
@@ -599,9 +583,11 @@
     "bowlingStyle": "Right-arm off break",
     "traits": [
       "legend",
+      "captain",
       "india-captain",
       "opener",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Elegant opener with a record of big-match batting and title-winning leadership.",
@@ -632,12 +618,14 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
     "traits": [
+      "captain",
       "aggressive",
       "all-rounder",
       "pace",
       "finisher",
       "match-winner",
-      "captain"
+      "current-captain",
+      "active"
     ],
     "bio": "Dynamic seam-bowling all-rounder built for high-pressure moments.",
     "achievements": [
@@ -670,7 +658,8 @@
       "pace",
       "death-bowler",
       "powerplay-specialist",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Unique fast bowler with impossible angles, yorkers, and control.",
     "achievements": [
@@ -702,7 +691,8 @@
     "traits": [
       "aggressive",
       "middle-order",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "360-degree batter who can dismantle fields with pure imagination.",
     "achievements": [
@@ -735,7 +725,8 @@
       "left-hander",
       "youngster",
       "middle-order",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Bright young left-hander with calm shot-making against both pace and spin.",
     "achievements": [
@@ -766,6 +757,7 @@
       "wicketkeeper",
       "opener",
       "aggressive",
+      "active",
       "middle-order"
     ],
     "bio": "Left-handed wicketkeeper-opener with a strong square game and fearless powerplay tempo.",
@@ -805,7 +797,8 @@
       "left-hander",
       "pace",
       "powerplay-specialist",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Left-arm swing bowler who loves striking in the first over.",
     "achievements": [
@@ -837,7 +830,8 @@
     "traits": [
       "pace",
       "powerplay-specialist",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "High-energy fast bowler known for seam movement and new-ball bursts.",
     "achievements": [
@@ -872,6 +866,7 @@
       "aggressive",
       "opener",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "World-class opener with brutal power and range against every pace.",
@@ -902,11 +897,13 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
     "traits": [
+      "captain",
       "anchor",
       "opener",
       "youngster",
       "match-winner",
-      "captain",
+      "current-captain",
+      "active",
       "middle-order"
     ],
     "bio": "Graceful opener with timing, composure, and a huge appetite for runs.",
@@ -943,7 +940,8 @@
       "mystery-spinner",
       "match-winner",
       "finisher",
-      "pace"
+      "pace",
+      "active"
     ],
     "bio": "Mystery leg-spinner and lower-order game changer with bat and ball.",
     "achievements": [
@@ -977,8 +975,8 @@
       "youngster",
       "anchor",
       "opener",
-      "middle-order",
-      "match-winner"
+      "active",
+      "middle-order"
     ],
     "bio": "Silky left-hander who builds innings without losing scoring tempo.",
     "achievements": [
@@ -1011,7 +1009,8 @@
       "foreign",
       "pace",
       "death-bowler",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Fast bowler with high pace, bounce, and elite wicket-taking threat.",
     "achievements": [
@@ -1045,7 +1044,8 @@
       "finisher",
       "all-rounder",
       "spin",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Unorthodox finisher who keeps nerve in wild final overs.",
     "achievements": [
@@ -1080,6 +1080,7 @@
       "left-hander",
       "aggressive",
       "opener",
+      "active",
       "middle-order"
     ],
     "bio": "Fluent left-handed wicketkeeper-opener with strong powerplay instincts.",
@@ -1115,7 +1116,8 @@
       "all-rounder",
       "pace",
       "finisher",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "One of the most destructive T20 all-rounders ever.",
     "achievements": [
@@ -1150,7 +1152,8 @@
       "spin",
       "all-rounder",
       "opener",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Mystery spinner and surprise opener who breaks games open.",
     "achievements": [
@@ -1183,7 +1186,8 @@
       "left-hander",
       "finisher",
       "middle-order",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Fearless finisher who backs himself in the final overs.",
     "achievements": [
@@ -1216,7 +1220,8 @@
       "spin",
       "mystery-spinner",
       "match-winner",
-      "pace"
+      "pace",
+      "active"
     ],
     "bio": "Mystery spinner who thrives in middle overs with sharp variations.",
     "achievements": [
@@ -1251,6 +1256,8 @@
       "opener",
       "match-winner",
       "captain",
+      "current-captain",
+      "active",
       "middle-order"
     ],
     "bio": "Polished top-order batter who mixed timing, tempo, and calm stroke play for RR.",
@@ -1286,6 +1293,7 @@
       "aggressive",
       "opener",
       "youngster",
+      "active",
       "middle-order"
     ],
     "bio": "Explosive wicketkeeper-opener who attacks the powerplay.",
@@ -1317,10 +1325,12 @@
     "bowlingStyle": "Right-arm fast",
     "traits": [
       "foreign",
+      "captain",
       "all-rounder",
       "pace",
       "match-winner",
-      "captain"
+      "current-captain",
+      "active"
     ],
     "bio": "Fast-bowling leader with composure, bounce, and useful lower-order hitting.",
     "achievements": [
@@ -1355,6 +1365,7 @@
       "aggressive",
       "opener",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Explosive left-handed opener who transforms powerplays into carnage.",
@@ -1389,7 +1400,8 @@
       "wicketkeeper",
       "aggressive",
       "middle-order",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "One of the cleanest spin-hitters in world cricket.",
     "achievements": [
@@ -1425,7 +1437,7 @@
       "spin",
       "youngster",
       "opener",
-      "match-winner"
+      "active"
     ],
     "bio": "Left-handed aggressor who can chip in with spin and dynamic fielding.",
     "achievements": [
@@ -1457,7 +1469,8 @@
     "traits": [
       "pace",
       "powerplay-specialist",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Seam-up strike bowler who attacks the stumps relentlessly.",
     "achievements": [
@@ -1491,7 +1504,8 @@
       "left-hander",
       "pace",
       "powerplay-specialist",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Left-arm swing bowler who loves striking in the first over.",
     "achievements": [
@@ -1520,7 +1534,9 @@
       "left-hander",
       "aggressive",
       "middle-order",
-      "match-winner"
+      "captain",
+      "match-winner",
+      "active"
     ],
     "bio": "Street-smart left-hander who targets spin, handles middle-order tempo, and can chip in with off-spin.",
     "achievements": [
@@ -1555,11 +1571,13 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
     "traits": [
+      "captain",
       "wicketkeeper",
       "aggressive",
       "middle-order",
       "match-winner",
-      "captain"
+      "current-captain",
+      "active"
     ],
     "bio": "Elegant wicketkeeper-captain who mixes touch with clean six-hitting.",
     "achievements": [
@@ -1593,7 +1611,8 @@
       "foreign",
       "pace",
       "death-bowler",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Fast bowler with pace, bounce, and composure at both ends of an innings.",
     "achievements": [
@@ -1627,7 +1646,7 @@
       "aggressive",
       "all-rounder",
       "middle-order",
-      "match-winner"
+      "active"
     ],
     "bio": "Confident middle-order all-rounder growing into a genuine match-winner.",
     "achievements": [
@@ -1662,6 +1681,7 @@
       "youngster",
       "opener",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Fearless left-handed opener with elite bat speed and hunger.",
@@ -1692,10 +1712,12 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg break",
     "traits": [
+      "captain",
       "anchor",
       "middle-order",
       "match-winner",
-      "captain"
+      "current-captain",
+      "active"
     ],
     "bio": "Composed middle-order leader who handles spin with authority.",
     "achievements": [
@@ -1730,7 +1752,8 @@
       "all-rounder",
       "spin",
       "middle-order",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Unpredictable superstar capable of changing a game in ten balls.",
     "achievements": [
@@ -1763,7 +1786,8 @@
       "spin",
       "match-winner",
       "legend",
-      "pace"
+      "pace",
+      "active"
     ],
     "bio": "Wrist-spinner who keeps wicket-takers' instinct at the heart of his bowling.",
     "achievements": [
@@ -1797,7 +1821,8 @@
       "pace",
       "death-bowler",
       "youngster",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Left-arm seamer known for clever angles and strong death overs.",
     "achievements": [
@@ -1832,7 +1857,8 @@
       "all-rounder",
       "pace",
       "middle-order",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Strong all-rounder who can muscle chases and bowl heavy lengths.",
     "achievements": [
@@ -1868,6 +1894,7 @@
       "aggressive",
       "opener",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Aggressive wicketkeeper-opener who attacked hard lengths from the very start.",
@@ -1898,12 +1925,14 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm medium",
     "traits": [
+      "captain",
       "wicketkeeper",
       "left-hander",
       "aggressive",
       "middle-order",
       "match-winner",
-      "captain"
+      "current-captain",
+      "active"
     ],
     "bio": "Fearless left-handed wicketkeeper who can flip momentum instantly.",
     "achievements": [
@@ -1937,7 +1966,8 @@
       "left-hander",
       "finisher",
       "middle-order",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Powerful left-handed finisher famous for closing out tense chases.",
     "achievements": [
@@ -1973,6 +2003,7 @@
       "aggressive",
       "finisher",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Destructive left-handed wicketkeeper-finisher with outrageous bat speed.",
@@ -2006,7 +2037,8 @@
       "spin",
       "youngster",
       "match-winner",
-      "pace"
+      "pace",
+      "active"
     ],
     "bio": "Quick leg-spinner who attacks with pace through the air.",
     "achievements": [
@@ -2038,7 +2070,8 @@
     "traits": [
       "pace",
       "youngster",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Express fast bowler who grabbed attention instantly with raw speed.",
     "achievements": [
@@ -2067,7 +2100,9 @@
       "foreign",
       "anchor",
       "middle-order",
-      "all-rounder"
+      "all-rounder",
+      "captain",
+      "active"
     ],
     "bio": "Elegant South African batter who anchors innings, attacks spin, and offers handy off-spin.",
     "achievements": [
@@ -2103,9 +2138,11 @@
     "bowlingStyle": "Right-arm leg break",
     "traits": [
       "foreign",
+      "captain",
       "aggressive",
       "opener",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Explosive senior opener with fearless intent against pace and spin.",
@@ -2141,7 +2178,9 @@
       "aggressive",
       "legend",
       "opener",
+      "captain",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Prolific IPL opener with elite consistency and relentless intent.",
@@ -2172,10 +2211,12 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
     "traits": [
+      "captain",
       "wicketkeeper",
       "anchor",
       "opener",
       "match-winner",
+      "active",
       "middle-order"
     ],
     "bio": "Technically complete opener with the range to pace an innings perfectly.",
@@ -2206,7 +2247,8 @@
       "left-hander",
       "pace",
       "death-bowler",
-      "match-winner"
+      "match-winner",
+      "active"
     ],
     "bio": "Left-arm fast bowler famous for late swing, yorkers, and wicket-taking spells in knockout games.",
     "achievements": [
@@ -2245,7 +2287,9 @@
       "all-rounder",
       "spin",
       "match-winner",
-      "captain"
+      "captain",
+      "current-captain",
+      "active"
     ],
     "bio": "Reliable left-arm spin all-rounder who adds calm to every phase.",
     "achievements": [
@@ -2278,8 +2322,8 @@
       "aggressive",
       "youngster",
       "opener",
-      "middle-order",
-      "match-winner"
+      "active",
+      "middle-order"
     ],
     "bio": "Naturally attacking opener who likes to dominate hard lengths.",
     "achievements": [
@@ -2298,5 +2342,1002 @@
     "voiceIntro": "Hey, I'm Prithvi Shaw, a featured 2026 famous-player pick for DC.",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2026/51.png",
     "introTag": "the batting option"
+  },
+  {
+    "id": "csk-shane-watson",
+    "teamId": "csk",
+    "name": "Shane Watson",
+    "role": "All-Rounder",
+    "jerseyNumber": 33,
+    "country": "Australia",
+    "age": 45,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "traits": [
+      "foreign",
+      "all-rounder",
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Title-winning all-rounder whose power and seam bowling defined RR's early identity.",
+    "achievements": [
+      "IPL winner",
+      "Orange Cap winner",
+      "RR legend"
+    ],
+    "voiceIntro": "Hey, I'm Shane Watson, a retired CSK legend for CSK.",
+    "stats": {
+      "matches": 145,
+      "runs": 3874,
+      "wickets": 92,
+      "strikeRate": 137.9,
+      "battingAverage": 30.8,
+      "bestPerformance": "117* vs SRH"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SHANE_WATSON_%2811705862116%29.jpg/960px-SHANE_WATSON_%2811705862116%29.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "role": "Batsman",
+    "country": "Australia",
+    "age": 51,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "anchor",
+      "middle-order",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Mr Cricket, a calm left-handed run machine who gave CSK stability and finals composure.",
+    "achievements": [
+      "Orange Cap winner",
+      "Multiple IPL titles",
+      "CSK title winner"
+    ],
+    "voiceIntro": "Hey, I'm Michael Hussey, a retired CSK legend for CSK.",
+    "stats": {
+      "matches": 59,
+      "runs": 1977,
+      "wickets": 0,
+      "strikeRate": 122.6,
+      "battingAverage": 38.8,
+      "bestPerformance": "116* vs PBKS"
+    },
+    "name": "Michael Hussey",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Michael_Hussey_2022.jpg",
+    "id": "csk-michael-hussey",
+    "teamId": "csk",
+    "jerseyNumber": 102,
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "role": "Batsman",
+    "country": "Australia",
+    "age": 54,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "Fearless Australian opener who brought raw power and the famous Mongoose bat to CSK.",
+    "achievements": [
+      "Orange Cap winner",
+      "CSK powerplay icon",
+      "Australia great"
+    ],
+    "voiceIntro": "Hey, I'm Matthew Hayden, a retired CSK legend for CSK.",
+    "stats": {
+      "matches": 32,
+      "runs": 1107,
+      "wickets": 0,
+      "strikeRate": 137.5,
+      "battingAverage": 36.9,
+      "bestPerformance": "93 vs DD"
+    },
+    "name": "Matthew Hayden",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Matthew_Hayden_Image.jpg",
+    "id": "csk-matthew-hayden",
+    "teamId": "csk",
+    "jerseyNumber": 103,
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "role": "Batsman",
+    "country": "India",
+    "age": 40,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "finisher",
+      "match-winner",
+      "legend",
+      "retired"
+    ],
+    "bio": "Flexible Indian batter who won titles with calm middle-order knocks and late-over hitting.",
+    "achievements": [
+      "Multiple IPL titles",
+      "CSK and MI title winner",
+      "IPL century maker"
+    ],
+    "voiceIntro": "Hey, I'm Ambati Rayudu, a retired CSK legend for CSK.",
+    "stats": {
+      "matches": 204,
+      "runs": 4348,
+      "wickets": 0,
+      "strikeRate": 127.5,
+      "battingAverage": 28.2,
+      "bestPerformance": "100* vs SRH"
+    },
+    "name": "Ambati Rayudu",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ambati_Rayudu.jpg",
+    "id": "csk-ambati-rayudu",
+    "teamId": "csk",
+    "jerseyNumber": 104,
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "csk-suresh-raina",
+    "teamId": "csk",
+    "name": "Suresh Raina",
+    "role": "Batsman",
+    "jerseyNumber": 3,
+    "country": "India",
+    "age": 39,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "left-hander",
+      "aggressive",
+      "middle-order",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "One of CSK's defining batters, famous for fast starts and big playoff knocks.",
+    "achievements": [
+      "Mr. IPL",
+      "Multiple IPL titles",
+      "CSK legend"
+    ],
+    "voiceIntro": "Hey, I'm Suresh Raina, a retired CSK legend for CSK.",
+    "stats": {
+      "matches": 205,
+      "runs": 5528,
+      "wickets": 25,
+      "strikeRate": 136.8,
+      "battingAverage": 32.5,
+      "bestPerformance": "100* vs PBKS"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Suresh_Raina_grace_the_%27Salaam_Sachin%27_conclave.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "csk-dwayne-bravo",
+    "teamId": "csk",
+    "name": "Dwayne Bravo",
+    "role": "All-Rounder",
+    "jerseyNumber": 47,
+    "country": "West Indies",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "traits": [
+      "foreign",
+      "all-rounder",
+      "pace",
+      "death-bowler",
+      "finisher",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Death-overs expert and late-order entertainer with huge T20 pedigree.",
+    "achievements": [
+      "Purple Cap winner",
+      "CSK title winner",
+      "T20 all-round icon"
+    ],
+    "voiceIntro": "Hey, I'm Dwayne Bravo, a retired CSK legend for CSK.",
+    "stats": {
+      "matches": 161,
+      "runs": 1560,
+      "wickets": 183,
+      "strikeRate": 17.1,
+      "battingAverage": 22.4,
+      "bestPerformance": "4/22 vs MI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bravo_at_IIFA_2017_Green_Carpet.jpg/960px-Bravo_at_IIFA_2017_Green_Carpet.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "rcb-ab-de-villiers",
+    "teamId": "rcb",
+    "name": "AB de Villiers",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 17,
+    "country": "South Africa",
+    "age": 42,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "wicketkeeper",
+      "aggressive",
+      "middle-order",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "360-degree genius who turned impossible RCB chases into unforgettable nights.",
+    "achievements": [
+      "Mr. 360",
+      "RCB legend",
+      "One of T20's best finishers"
+    ],
+    "voiceIntro": "Hey, I'm AB de Villiers, a retired RCB legend for RCB.",
+    "stats": {
+      "matches": 184,
+      "runs": 5162,
+      "wickets": 0,
+      "strikeRate": 151.7,
+      "battingAverage": 39.7,
+      "bestPerformance": "133* vs MI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/AB_de_villiers_%28cropped%29.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "rcb-chris-gayle",
+    "teamId": "rcb",
+    "name": "Chris Gayle",
+    "role": "Batsman",
+    "jerseyNumber": 333,
+    "country": "West Indies",
+    "age": 47,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "The Universe Boss, famous for towering sixes and record-breaking powerplay destruction.",
+    "achievements": [
+      "Highest IPL score",
+      "T20 icon",
+      "RCB cult hero"
+    ],
+    "voiceIntro": "Hey, I'm Chris Gayle, a retired RCB legend for RCB.",
+    "stats": {
+      "matches": 142,
+      "runs": 4965,
+      "wickets": 18,
+      "strikeRate": 148.9,
+      "battingAverage": 39.7,
+      "bestPerformance": "175* vs PWI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Two_views_of_Chris_Gayle_%2848020785077%29.jpg/960px-Two_views_of_Chris_Gayle_%2848020785077%29.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "role": "Batsman",
+    "country": "India",
+    "age": 53,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "anchor",
+      "captain",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "Classical top-order great who gave RCB and Rajasthan calm leadership and reliable runs.",
+    "achievements": [
+      "India captain",
+      "RCB icon",
+      "Rajasthan Royals mentor figure"
+    ],
+    "voiceIntro": "Hey, I'm Rahul Dravid, a retired RCB legend for RCB.",
+    "stats": {
+      "matches": 89,
+      "runs": 2174,
+      "wickets": 0,
+      "strikeRate": 115.5,
+      "battingAverage": 28.2,
+      "bestPerformance": "75* vs RR"
+    },
+    "name": "Rahul Dravid",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Rahul_Dravid_in_2024.jpg",
+    "id": "rcb-rahul-dravid",
+    "teamId": "rcb",
+    "jerseyNumber": 103,
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "rcb-anil-kumble",
+    "teamId": "rcb",
+    "name": "Anil Kumble",
+    "role": "Bowler",
+    "jerseyNumber": 19,
+    "country": "India",
+    "age": 56,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "spin",
+      "captain",
+      "legend",
+      "match-winner",
+      "pace",
+      "retired"
+    ],
+    "bio": "RCB captain and leg-spin master who delivered one of the greatest bowling spells in IPL history.",
+    "achievements": [
+      "5/5 vs RR",
+      "RCB captain",
+      "India legend"
+    ],
+    "voiceIntro": "Hey, I'm Anil Kumble, a retired RCB legend for RCB.",
+    "stats": {
+      "matches": 42,
+      "runs": 35,
+      "wickets": 45,
+      "strikeRate": 18.7,
+      "battingAverage": 8.8,
+      "bestPerformance": "5/5 vs RR"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anil_Kumble_%281%29.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "rcb-dale-steyn",
+    "teamId": "rcb",
+    "name": "Dale Steyn",
+    "role": "Bowler",
+    "jerseyNumber": 8,
+    "country": "South Africa",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "foreign",
+      "pace",
+      "powerplay-specialist",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Express fast bowler who made the new ball feel dangerous every over.",
+    "achievements": [
+      "Fast-bowling great",
+      "SRH pace icon",
+      "Powerplay threat"
+    ],
+    "voiceIntro": "Hey, I'm Dale Steyn, a retired RCB legend for RCB.",
+    "stats": {
+      "matches": 95,
+      "runs": 65,
+      "wickets": 97,
+      "strikeRate": 17.8,
+      "battingAverage": 8.1,
+      "bestPerformance": "3/8 vs MI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Dale_Steyn_YM.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "mi-sachin-tendulkar",
+    "teamId": "mi",
+    "name": "Sachin Tendulkar",
+    "role": "Batsman",
+    "jerseyNumber": 10,
+    "country": "India",
+    "age": 53,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "legend",
+      "anchor",
+      "opener",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "Mumbai icon whose timing and calm leadership shaped early MI cricket.",
+    "achievements": [
+      "Orange Cap winner",
+      "MI legend",
+      "Master Blaster"
+    ],
+    "voiceIntro": "Hey, I'm Sachin Tendulkar, a retired MI legend for MI.",
+    "stats": {
+      "matches": 78,
+      "runs": 2334,
+      "wickets": 0,
+      "strikeRate": 119.8,
+      "battingAverage": 34.8,
+      "bestPerformance": "100* vs KTK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit%2826271019082%29.jpg/960px-The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit%2826271019082%29.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "mi-kieron-pollard",
+    "teamId": "mi",
+    "name": "Kieron Pollard",
+    "role": "All-Rounder",
+    "jerseyNumber": 55,
+    "country": "West Indies",
+    "age": 39,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "traits": [
+      "foreign",
+      "all-rounder",
+      "aggressive",
+      "finisher",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Power-packed all-rounder who gave MI some of their most brutal finishes.",
+    "achievements": [
+      "Multiple IPL titles",
+      "MI legend",
+      "Elite finisher"
+    ],
+    "voiceIntro": "Hey, I'm Kieron Pollard, a retired MI legend for MI.",
+    "stats": {
+      "matches": 189,
+      "runs": 3412,
+      "wickets": 69,
+      "strikeRate": 147.3,
+      "battingAverage": 28.7,
+      "bestPerformance": "87* vs CSK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Kieron_Pollard.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "mi-lasith-malinga",
+    "teamId": "mi",
+    "name": "Lasith Malinga",
+    "role": "Bowler",
+    "jerseyNumber": 99,
+    "country": "Sri Lanka",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "foreign",
+      "pace",
+      "death-bowler",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Yorker king whose sling action and death bowling made him an IPL icon.",
+    "achievements": [
+      "Multiple IPL titles",
+      "MI legend",
+      "Death overs specialist"
+    ],
+    "voiceIntro": "Hey, I'm Lasith Malinga, a retired MI legend for MI.",
+    "stats": {
+      "matches": 122,
+      "runs": 13,
+      "wickets": 170,
+      "strikeRate": 16.6,
+      "battingAverage": 6.5,
+      "bestPerformance": "5/13 vs DD"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lasith_Malinga_tossing_a_cricket_ball_at_practice.jpg/960px-Lasith_Malinga_tossing_a_cricket_ball_at_practice.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "role": "Bowler",
+    "country": "India",
+    "age": 45,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "spin",
+      "all-rounder",
+      "legend",
+      "match-winner",
+      "pace",
+      "retired"
+    ],
+    "bio": "Combative off-spinner and lower-order hitter who was central to Mumbai's early title identity.",
+    "achievements": [
+      "Multiple IPL titles",
+      "India great",
+      "150 IPL wickets"
+    ],
+    "voiceIntro": "Hey, I'm Harbhajan Singh, a retired MI legend for MI.",
+    "stats": {
+      "matches": 163,
+      "runs": 833,
+      "wickets": 150,
+      "strikeRate": 23.4,
+      "battingAverage": 15.1,
+      "bestPerformance": "5/18 vs CSK"
+    },
+    "name": "Harbhajan Singh",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Shri_Harbhajan_Singh_2015.jpg",
+    "id": "mi-harbhajan-singh",
+    "teamId": "mi",
+    "jerseyNumber": 104,
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "kkr-gautam-gambhir",
+    "teamId": "kkr",
+    "name": "Gautam Gambhir",
+    "role": "Batsman",
+    "jerseyNumber": 23,
+    "country": "India",
+    "age": 45,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "captain",
+      "left-hander",
+      "anchor",
+      "opener",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "KKR leader whose grit and top-order control helped shape a title-winning era.",
+    "achievements": [
+      "Two-time IPL-winning captain",
+      "KKR legend",
+      "India World Cup hero"
+    ],
+    "voiceIntro": "Hey, I'm Gautam Gambhir, a retired KKR legend for KKR.",
+    "stats": {
+      "matches": 154,
+      "runs": 4217,
+      "wickets": 0,
+      "strikeRate": 123.9,
+      "battingAverage": 31,
+      "bestPerformance": "93 vs RCB"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Padma_Shri_Gautam_Gambhir_%28cropped%29.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "kkr-robin-uthappa",
+    "teamId": "kkr",
+    "name": "Robin Uthappa",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 7,
+    "country": "India",
+    "age": 41,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "wicketkeeper",
+      "aggressive",
+      "opener",
+      "middle-order",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Versatile batter who played a huge role in KKR's title-winning run machine years.",
+    "achievements": [
+      "Orange Cap winner",
+      "IPL title winner",
+      "Explosive top-order hitter"
+    ],
+    "voiceIntro": "Hey, I'm Robin Uthappa, a retired KKR legend for KKR.",
+    "stats": {
+      "matches": 205,
+      "runs": 4952,
+      "wickets": 0,
+      "strikeRate": 130.4,
+      "battingAverage": 27.5,
+      "bestPerformance": "87* vs CSK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Robin_Uthappa_1.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "role": "All-Rounder",
+    "country": "India",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "all-rounder",
+      "aggressive",
+      "finisher",
+      "middle-order",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Explosive all-rounder who could change games in a few overs with brutal hitting and useful off-spin.",
+    "achievements": [
+      "IPL title winner",
+      "Fast IPL century",
+      "KKR and RR cult hero"
+    ],
+    "voiceIntro": "Hey, I'm Yusuf Pathan, a retired KKR legend for KKR.",
+    "stats": {
+      "matches": 174,
+      "runs": 3204,
+      "wickets": 42,
+      "strikeRate": 142.9,
+      "battingAverage": 29.1,
+      "bestPerformance": "100 vs MI"
+    },
+    "name": "Yusuf Pathan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Yusuf_Pathan.jpg",
+    "id": "kkr-yusuf-pathan",
+    "teamId": "kkr",
+    "jerseyNumber": 103,
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "name": "Shikhar Dhawan",
+    "teamId": "srh",
+    "role": "Batsman",
+    "jerseyNumber": 42,
+    "country": "India",
+    "age": 40,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "left-hander",
+      "opener",
+      "anchor",
+      "captain",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "Graceful left-handed opener and one of the IPL's most consistent run-scorers.",
+    "achievements": [
+      "Two-time IPL century maker",
+      "Former PBKS captain",
+      "IPL 6000-run club"
+    ],
+    "introTag": "the retired IPL legend",
+    "stats": {
+      "matches": 222,
+      "runs": 6769,
+      "wickets": 4,
+      "strikeRate": 127.1,
+      "battingAverage": 35.3,
+      "bestPerformance": "106* vs PBKS"
+    },
+    "id": "srh-shikhar-dhawan",
+    "voiceIntro": "Hey, I'm Shikhar Dhawan, a retired SRH legend for SRH.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/SHIKHAR_DHAWAN_%2816005494418%29.jpg/960px-SHIKHAR_DHAWAN_%2816005494418%29.jpg"
+  },
+  {
+    "id": "rr-shane-watson",
+    "teamId": "rr",
+    "name": "Shane Watson",
+    "role": "All-Rounder",
+    "jerseyNumber": 33,
+    "country": "Australia",
+    "age": 45,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "traits": [
+      "foreign",
+      "all-rounder",
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Title-winning all-rounder whose power and seam bowling defined RR's early identity.",
+    "achievements": [
+      "IPL winner",
+      "Orange Cap winner",
+      "RR legend"
+    ],
+    "voiceIntro": "Hey, I'm Shane Watson, a retired RR legend for RR.",
+    "stats": {
+      "matches": 145,
+      "runs": 3874,
+      "wickets": 92,
+      "strikeRate": 137.9,
+      "battingAverage": 30.8,
+      "bestPerformance": "117* vs SRH"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SHANE_WATSON_%2811705862116%29.jpg/960px-SHANE_WATSON_%2811705862116%29.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "role": "All-Rounder",
+    "country": "India",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "all-rounder",
+      "aggressive",
+      "finisher",
+      "middle-order",
+      "legend",
+      "match-winner",
+      "retired"
+    ],
+    "bio": "Explosive all-rounder who could change games in a few overs with brutal hitting and useful off-spin.",
+    "achievements": [
+      "IPL title winner",
+      "Fast IPL century",
+      "KKR and RR cult hero"
+    ],
+    "voiceIntro": "Hey, I'm Yusuf Pathan, a retired RR legend for RR.",
+    "stats": {
+      "matches": 174,
+      "runs": 3204,
+      "wickets": 42,
+      "strikeRate": 142.9,
+      "battingAverage": 29.1,
+      "bestPerformance": "100 vs MI"
+    },
+    "name": "Yusuf Pathan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Yusuf_Pathan.jpg",
+    "id": "rr-yusuf-pathan",
+    "teamId": "rr",
+    "jerseyNumber": 102,
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "role": "Bowler",
+    "country": "Australia",
+    "age": 52,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "foreign",
+      "spin",
+      "captain",
+      "legend",
+      "match-winner",
+      "pace",
+      "retired"
+    ],
+    "bio": "Legendary leg-spinner and inspirational captain who led Rajasthan to the first IPL title.",
+    "achievements": [
+      "IPL-winning captain",
+      "RR legend",
+      "All-time spin great"
+    ],
+    "voiceIntro": "Hey, I'm Shane Warne, a retired RR legend for RR.",
+    "stats": {
+      "matches": 55,
+      "runs": 198,
+      "wickets": 57,
+      "strikeRate": 21.5,
+      "battingAverage": 9.4,
+      "bestPerformance": "4/21 vs DC"
+    },
+    "name": "Shane Warne",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Shane_Warne_February_2015.jpg/960px-Shane_Warne_February_2015.jpg",
+    "id": "rr-shane-warne",
+    "teamId": "rr",
+    "jerseyNumber": 103,
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "pbks-chris-gayle",
+    "teamId": "pbks",
+    "name": "Chris Gayle",
+    "role": "Batsman",
+    "jerseyNumber": 333,
+    "country": "West Indies",
+    "age": 47,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "The Universe Boss, famous for towering sixes and record-breaking powerplay destruction.",
+    "achievements": [
+      "Highest IPL score",
+      "T20 icon",
+      "RCB cult hero"
+    ],
+    "voiceIntro": "Hey, I'm Chris Gayle, a retired PBKS legend for PBKS.",
+    "stats": {
+      "matches": 142,
+      "runs": 4965,
+      "wickets": 18,
+      "strikeRate": 148.9,
+      "battingAverage": 39.7,
+      "bestPerformance": "175* vs PWI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Two_views_of_Chris_Gayle_%2848020785077%29.jpg/960px-Two_views_of_Chris_Gayle_%2848020785077%29.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "name": "Shikhar Dhawan",
+    "teamId": "pbks",
+    "role": "Batsman",
+    "jerseyNumber": 42,
+    "country": "India",
+    "age": 40,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "left-hander",
+      "opener",
+      "anchor",
+      "captain",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "Graceful left-handed opener and one of the IPL's most consistent run-scorers.",
+    "achievements": [
+      "Two-time IPL century maker",
+      "Former PBKS captain",
+      "IPL 6000-run club"
+    ],
+    "introTag": "the retired IPL legend",
+    "stats": {
+      "matches": 222,
+      "runs": 6769,
+      "wickets": 4,
+      "strikeRate": 127.1,
+      "battingAverage": 35.3,
+      "bestPerformance": "106* vs PBKS"
+    },
+    "id": "pbks-shikhar-dhawan",
+    "voiceIntro": "Hey, I'm Shikhar Dhawan, a retired PBKS legend for PBKS.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/SHIKHAR_DHAWAN_%2816005494418%29.jpg/960px-SHIKHAR_DHAWAN_%2816005494418%29.jpg"
+  },
+  {
+    "id": "pbks-shaun-marsh",
+    "teamId": "pbks",
+    "name": "Shaun Marsh",
+    "role": "Batsman",
+    "jerseyNumber": 9,
+    "country": "Australia",
+    "age": 43,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "anchor",
+      "opener",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "Silky left-handed opener whose batting class made him one of Punjab's best scorers.",
+    "achievements": [
+      "First IPL Orange Cap winner",
+      "PBKS batting pillar",
+      "Consistent opener"
+    ],
+    "voiceIntro": "Hey, I'm Shaun Marsh, a retired PBKS legend for PBKS.",
+    "stats": {
+      "matches": 71,
+      "runs": 2477,
+      "wickets": 0,
+      "strikeRate": 132.7,
+      "battingAverage": 39.9,
+      "bestPerformance": "115 vs RR"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Shaun_Marsh.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "id": "dc-virender-sehwag",
+    "teamId": "dc",
+    "name": "Virender Sehwag",
+    "role": "Batsman",
+    "jerseyNumber": 44,
+    "country": "India",
+    "age": 48,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "Fearless opener who treated bowlers the same way in Tests, ODIs, and the IPL.",
+    "achievements": [
+      "Triple-century Test batter",
+      "IPL hundred maker",
+      "Explosive opener"
+    ],
+    "voiceIntro": "Hey, I'm Virender Sehwag, a retired DC legend for DC.",
+    "stats": {
+      "matches": 104,
+      "runs": 2728,
+      "wickets": 0,
+      "strikeRate": 155.4,
+      "battingAverage": 27.6,
+      "bestPerformance": "122 vs CSK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Virender_Sehwag_at_the_NDTV_Marks_for_Sports_event_13.jpg",
+    "introTag": "the retired IPL legend"
+  },
+  {
+    "name": "Shikhar Dhawan",
+    "teamId": "dc",
+    "role": "Batsman",
+    "jerseyNumber": 42,
+    "country": "India",
+    "age": 40,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "left-hander",
+      "opener",
+      "anchor",
+      "captain",
+      "legend",
+      "match-winner",
+      "retired",
+      "middle-order"
+    ],
+    "bio": "Graceful left-handed opener and one of the IPL's most consistent run-scorers.",
+    "achievements": [
+      "Two-time IPL century maker",
+      "Former PBKS captain",
+      "IPL 6000-run club"
+    ],
+    "introTag": "the retired IPL legend",
+    "stats": {
+      "matches": 222,
+      "runs": 6769,
+      "wickets": 4,
+      "strikeRate": 127.1,
+      "battingAverage": 35.3,
+      "bestPerformance": "106* vs PBKS"
+    },
+    "id": "dc-shikhar-dhawan",
+    "voiceIntro": "Hey, I'm Shikhar Dhawan, a retired DC legend for DC.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/SHIKHAR_DHAWAN_%2816005494418%29.jpg/960px-SHIKHAR_DHAWAN_%2816005494418%29.jpg"
   }
 ]

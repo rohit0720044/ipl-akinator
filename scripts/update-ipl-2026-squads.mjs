@@ -308,6 +308,7 @@ const overseasCountries = {
   "Aiden Markram": "South Africa",
   "Adam Milne": "New Zealand",
   "Allah Ghazanfar": "Afghanistan",
+  "AB de Villiers": "South Africa",
   "Andre Russell": "West Indies",
   "Anrich Nortje": "South Africa",
   "Azmatullah Omarzai": "Afghanistan",
@@ -324,6 +325,7 @@ const overseasCountries = {
   "Dilshan Madushanka": "Sri Lanka",
   "Donovan Ferreira": "South Africa",
   "Dushmantha Chameera": "Sri Lanka",
+  "Dwayne Bravo": "West Indies",
   "Eshan Malinga": "Sri Lanka",
   "Faf du Plessis": "South Africa",
   "Finn Allen": "New Zealand",
@@ -356,7 +358,9 @@ const overseasCountries = {
   "Matheesha Pathirana": "Sri Lanka",
   "Matt Henry": "New Zealand",
   "Matthew Breetzke": "South Africa",
+  "Matthew Hayden": "Australia",
   "Matthew William Short": "Australia",
+  "Michael Hussey": "Australia",
   "Mitchell Marsh": "Australia",
   "Mitchell Starc": "Australia",
   "Mitch Owen": "Australia",
@@ -375,6 +379,9 @@ const overseasCountries = {
   "Rovman Powell": "West Indies",
   "Ryan Rickelton": "South Africa",
   "Sam Curran": "England",
+  "Shane Warne": "Australia",
+  "Shane Watson": "Australia",
+  "Shaun Marsh": "Australia",
   "Sherfane Rutherford": "West Indies",
   "Shimron Hetmyer": "West Indies",
   "Spencer Johnson": "Australia",
@@ -393,7 +400,6 @@ const overseasCountries = {
 const curatedPlayers = {
   csk: [
     ["MS Dhoni", "Wicketkeeper-Batsman"],
-    ["Suresh Raina", "Batsman"],
     ["Ravindra Jadeja", "All-Rounder"],
     ["Ruturaj Gaikwad", "Batsman"],
     ["Ravichandran Ashwin", "All-Rounder"],
@@ -480,6 +486,50 @@ const curatedPlayers = {
   ]
 };
 
+const retiredPlayersByTeam = {
+  csk: [
+    ["Shane Watson", "All-Rounder"],
+    ["Michael Hussey", "Batsman"],
+    ["Matthew Hayden", "Batsman"],
+    ["Ambati Rayudu", "Batsman"],
+    ["Suresh Raina", "Batsman"],
+    ["Dwayne Bravo", "All-Rounder"]
+  ],
+  rcb: [
+    ["AB de Villiers", "Wicketkeeper-Batsman"],
+    ["Chris Gayle", "Batsman"],
+    ["Rahul Dravid", "Batsman"],
+    ["Anil Kumble", "Bowler"],
+    ["Dale Steyn", "Bowler"]
+  ],
+  mi: [
+    ["Sachin Tendulkar", "Batsman"],
+    ["Kieron Pollard", "All-Rounder"],
+    ["Lasith Malinga", "Bowler"],
+    ["Harbhajan Singh", "Bowler"]
+  ],
+  kkr: [
+    ["Gautam Gambhir", "Batsman"],
+    ["Robin Uthappa", "Wicketkeeper-Batsman"],
+    ["Yusuf Pathan", "All-Rounder"]
+  ],
+  srh: [["Shikhar Dhawan", "Batsman"]],
+  rr: [
+    ["Shane Watson", "All-Rounder"],
+    ["Yusuf Pathan", "All-Rounder"],
+    ["Shane Warne", "Bowler"]
+  ],
+  pbks: [
+    ["Chris Gayle", "Batsman"],
+    ["Shikhar Dhawan", "Batsman"],
+    ["Shaun Marsh", "Batsman"]
+  ],
+  dc: [
+    ["Virender Sehwag", "Batsman"],
+    ["Shikhar Dhawan", "Batsman"]
+  ]
+};
+
 const teamNames = {
   csk: "CSK",
   rcb: "RCB",
@@ -504,12 +554,13 @@ function normalize(value) {
   return slugify(value).replace(/-/g, "");
 }
 
-function defaultTraits(name, role, captain) {
+function defaultTraits(name, role, captain, status = "active") {
   const traits = [];
   if (role === "Wicketkeeper-Batsman") traits.push("wicketkeeper");
   if (role === "All-Rounder") traits.push("all-rounder");
   if (role === "Bowler") traits.push("pace");
-  if (captain === name) traits.push("captain");
+  if (status === "active" && captain === name) traits.push("captain", "current-captain");
+  traits.push(status);
   if (overseasCountries[name]) traits.push("foreign");
   if (["Batsman", "Wicketkeeper-Batsman"].includes(role)) traits.push("middle-order");
   if (traits.length < 2) traits.push("match-winner");
@@ -579,31 +630,38 @@ function findPreviousPlayer(name) {
   return undefined;
 }
 
-const players = Object.entries(curatedPlayers).flatMap(([teamId, roster]) =>
-  roster.map(([name, role], index) => {
-    const previous = findPreviousPlayer(name);
-    const id = slugify(`${teamId}-${name}`);
-    const captain = captains[teamId];
-    const traits = defaultTraits(name, role, captain);
-    const country = overseasCountries[name] ?? previous?.country ?? "India";
-    return {
-      ...(previous ?? {}),
-      id,
-      name,
-      teamId,
-      role,
-      jerseyNumber: previous?.jerseyNumber ?? index + 1,
-      country,
-      age: previous?.age ?? 25,
-      battingStyle: previous?.battingStyle ?? "Right-hand bat",
-      bowlingStyle:
-        previous?.bowlingStyle ??
-        (role === "Bowler" ? "Right-arm fast" : role === "All-Rounder" ? "Right-arm medium" : "Right-arm off break"),
-      traits: [...new Set([...(previous?.traits ?? []).filter((trait) => trait !== "captain"), ...traits])],
-      bio: previous?.bio ?? playerDescription(name, role, teamId, captain),
-      achievements: previous?.achievements ?? ["Curated IPL 2026 famous-player roster member"],
-      introTag:
-        captain === name
+function buildPlayer(teamId, name, role, index, status) {
+  const previous = findPreviousPlayer(name);
+  const id = slugify(`${teamId}-${name}`);
+  const captain = captains[teamId];
+  const traits = defaultTraits(name, role, captain, status);
+  const country = overseasCountries[name] ?? previous?.country ?? "India";
+
+  return {
+    ...(previous ?? {}),
+    id,
+    name,
+    teamId,
+    role,
+    jerseyNumber: previous?.jerseyNumber ?? index + 1,
+    country,
+    age: previous?.age ?? 25,
+    battingStyle: previous?.battingStyle ?? "Right-hand bat",
+    bowlingStyle:
+      previous?.bowlingStyle ??
+      (role === "Bowler" ? "Right-arm fast" : role === "All-Rounder" ? "Right-arm medium" : "Right-arm off break"),
+    traits: [
+      ...new Set([
+        ...(previous?.traits ?? []).filter((trait) => !["active", "retired", "current-captain"].includes(trait)),
+        ...traits
+      ])
+    ],
+    bio: previous?.bio ?? playerDescription(name, role, teamId, captain),
+    achievements: previous?.achievements ?? ["Curated IPL famous-player roster member"],
+    introTag:
+      status === "retired"
+        ? "the retired IPL legend"
+        : captain === name
           ? "the current captain"
           : role === "Wicketkeeper-Batsman"
             ? "the wicketkeeper-batter"
@@ -612,12 +670,27 @@ const players = Object.entries(curatedPlayers).flatMap(([teamId, roster]) =>
               : role === "Bowler"
                 ? "the bowling option"
                 : "the batting option",
-      voiceIntro: `Hey, I'm ${name}, ${captain === name ? "the current captain" : "a featured 2026 famous-player pick"} for ${teamNames[teamId]}.`,
-      imageUrl: previous?.imageUrl,
-      stats: previous?.stats ?? defaultStats(role)
-    };
-  })
+    voiceIntro: `Hey, I'm ${name}, ${
+      status === "retired"
+        ? `a retired ${teamNames[teamId]} legend`
+        : captain === name
+          ? "the current captain"
+          : "a featured 2026 famous-player pick"
+    } for ${teamNames[teamId]}.`,
+    imageUrl: previous?.imageUrl,
+    stats: previous?.stats ?? defaultStats(role)
+  };
+}
+
+const activePlayers = Object.entries(curatedPlayers).flatMap(([teamId, roster]) =>
+  roster.map(([name, role], index) => buildPlayer(teamId, name, role, index, "active"))
 );
+
+const retiredPlayers = Object.entries(retiredPlayersByTeam).flatMap(([teamId, roster]) =>
+  roster.map(([name, role], index) => buildPlayer(teamId, name, role, index + 100, "retired"))
+);
+
+const players = [...activePlayers, ...retiredPlayers];
 
 await writeFile("data/ipl-2026-players.json", `${JSON.stringify(players, null, 2)}\n`, "utf8");
 await writeFile("data/runtime/players.json", `${JSON.stringify(players, null, 2)}\n`, "utf8");
@@ -631,7 +704,12 @@ if (markerIndex === -1) throw new Error("Could not find SEED_QUESTIONS marker");
 const replacement = `import CURRENT_2026_PLAYERS from "@/data/ipl-2026-players.json";\nimport { Player, QuestionDefinition } from "@/types";\n\nexport const SEED_PLAYERS = CURRENT_2026_PLAYERS as Player[];\n\n`;
 await writeFile(seedPath, replacement + seed.slice(markerIndex), "utf8");
 
-const selectedCounts = Object.fromEntries(
+const activeCounts = Object.fromEntries(
   Object.entries(curatedPlayers).map(([teamId, roster]) => [teamId.toUpperCase(), roster.length])
 );
-console.log(`Updated ${players.length} curated famous 2026 players (${JSON.stringify(selectedCounts)}).`);
+const retiredCounts = Object.fromEntries(
+  Object.entries(retiredPlayersByTeam).map(([teamId, roster]) => [teamId.toUpperCase(), roster.length])
+);
+console.log(
+  `Updated ${players.length} players (${JSON.stringify(activeCounts)} active, ${JSON.stringify(retiredCounts)} retired).`
+);

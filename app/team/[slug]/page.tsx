@@ -26,6 +26,8 @@ export default async function TeamPage({ params }: TeamPageProps) {
   }
 
   const players = (await getPlayers()).filter((player) => player.teamId === team.id);
+  const activePlayers = players.filter((player) => !player.traits.includes("retired"));
+  const retiredPlayers = players.filter((player) => player.traits.includes("retired"));
 
   return (
     <PageShell>
@@ -60,24 +62,44 @@ export default async function TeamPage({ params }: TeamPageProps) {
 
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="rounded-[28px] border border-white/10 bg-black/20 p-5">
-                <p className="font-accent text-xs uppercase tracking-[0.28em] text-white/60">Squad Profiles</p>
-                <p className="mt-3 font-display text-4xl">{players.length}</p>
+                <p className="font-accent text-xs uppercase tracking-[0.28em] text-white/60">Active Profiles</p>
+                <p className="mt-3 font-display text-4xl">{activePlayers.length}</p>
               </div>
               <div className="rounded-[28px] border border-white/10 bg-black/20 p-5">
-                <p className="font-accent text-xs uppercase tracking-[0.28em] text-white/60">Home City</p>
-                <p className="mt-3 font-display text-4xl">{team.city}</p>
+                <p className="font-accent text-xs uppercase tracking-[0.28em] text-white/60">Retired Legends</p>
+                <p className="mt-3 font-display text-4xl">{retiredPlayers.length}</p>
               </div>
               <div className="rounded-[28px] border border-white/10 bg-black/20 p-5 sm:col-span-2">
-                <p className="font-accent text-xs uppercase tracking-[0.28em] text-white/60">Stadium Mood</p>
-                <p className="mt-3 text-base leading-7 text-white/74">
-                  Grass-toned panels, boundary-rope accents, and squad cards shaped to feel like a premium IPL match centre.
-                </p>
+                <p className="font-accent text-xs uppercase tracking-[0.28em] text-white/60">Home City</p>
+                <p className="mt-3 font-display text-4xl">{team.city}</p>
               </div>
             </div>
           </div>
         </GlassPanel>
 
-        <RosterGrid players={players} />
+        <section className="space-y-4">
+          <div>
+            <p className="font-accent text-xs uppercase tracking-[0.32em] text-amber-100/70">Current Team Picks</p>
+            <h2 className="mt-3 font-display text-3xl uppercase tracking-[0.14em]">Active Players</h2>
+          </div>
+          <RosterGrid players={activePlayers} />
+        </section>
+
+        <section className="space-y-4 border-t border-white/10 pt-8">
+          <div>
+            <p className="font-accent text-xs uppercase tracking-[0.32em] text-amber-100/70">Classic Dugout</p>
+            <h2 className="mt-3 font-display text-3xl uppercase tracking-[0.14em]">Retired Players</h2>
+          </div>
+          {retiredPlayers.length > 0 ? (
+            <RosterGrid players={retiredPlayers} />
+          ) : (
+            <GlassPanel className="p-6">
+              <p className="font-accent text-sm uppercase tracking-[0.24em] text-white/70">
+                Retired players will appear here once added for {team.shortName}.
+              </p>
+            </GlassPanel>
+          )}
+        </section>
       </section>
     </PageShell>
   );

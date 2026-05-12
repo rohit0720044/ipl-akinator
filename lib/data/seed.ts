@@ -21,6 +21,14 @@ export const SEED_QUESTIONS: QuestionDefinition[] = [
     rule: { field: "role", operator: "equals", value: "Bowler" }
   },
   {
+    id: "role-primary-batsman",
+    prompt: "Is your player primarily a batsman?",
+    description: "Adds a direct batsman check in the user's preferred question style.",
+    category: "role",
+    priority: 5,
+    rule: { field: "role", operator: "equals", value: "Batsman" }
+  },
+  {
     id: "role-keeper",
     prompt: "Does your player keep wickets?",
     description: "Helps isolate wicketkeeper-batters quickly.",
@@ -43,6 +51,30 @@ export const SEED_QUESTIONS: QuestionDefinition[] = [
     category: "identity",
     priority: 4,
     rule: { field: "traits", operator: "includes", value: "foreign" }
+  },
+  {
+    id: "identity-indian-or-international",
+    prompt: "Is your player Indian rather than international?",
+    description: "Separates Indian players from international or overseas players.",
+    category: "identity",
+    priority: 5,
+    rule: { field: "country", operator: "equals", value: "India" }
+  },
+  {
+    id: "identity-overseas-cricketer",
+    prompt: "Is your player an overseas cricketer?",
+    description: "A direct overseas-player check using the user's wording.",
+    category: "identity",
+    priority: 5,
+    rule: { field: "traits", operator: "includes", value: "foreign" }
+  },
+  {
+    id: "career-active-player",
+    prompt: "Is your player active rather than retired?",
+    description: "Separates current playing names from retired IPL legends.",
+    category: "career",
+    priority: 4,
+    rule: { field: "traits", operator: "includes", value: "active" }
   },
   {
     id: "identity-lefty",
@@ -107,6 +139,14 @@ export const SEED_QUESTIONS: QuestionDefinition[] = [
     category: "career",
     priority: 4,
     rule: { field: "traits", operator: "includes", value: "captain" }
+  },
+  {
+    id: "career-current-ipl-captain",
+    prompt: "Is your player currently a captain of an IPL team?",
+    description: "Targets current captains separately from former captains.",
+    category: "career",
+    priority: 5,
+    rule: { field: "traits", operator: "includes", value: "current-captain" }
   },
   {
     id: "career-india-captain",

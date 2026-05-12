@@ -1392,39 +1392,6 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Mohammed_Shami_Arjuna_Award_%28cropped%29.jpg"
   },
   {
-    "name": "Trent Boult",
-    "teamId": "rr",
-    "role": "Bowler",
-    "jerseyNumber": 18,
-    "country": "New Zealand",
-    "age": 37,
-    "battingStyle": "Right-hand bat",
-    "bowlingStyle": "Left-arm fast-medium",
-    "traits": [
-      "foreign",
-      "left-hander",
-      "pace",
-      "powerplay-specialist",
-      "match-winner"
-    ],
-    "bio": "Left-arm swing bowler who loves striking in the first over.",
-    "achievements": [
-      "New-ball specialist",
-      "Multiple IPL finals appearances"
-    ],
-    "stats": {
-      "matches": 105,
-      "runs": 76,
-      "wickets": 121,
-      "strikeRate": 47.3,
-      "battingAverage": 10.2,
-      "bestPerformance": "4/18 vs MI"
-    },
-    "id": "rr-trent-boult",
-    "voiceIntro": "Hey, I'm Trent Boult, the left-arm swing bowler who strikes early for RR.",
-    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2026/66.png"
-  },
-  {
     "country": "India",
     "age": 32,
     "battingStyle": "Left-hand bat",
@@ -2166,5 +2133,705 @@
     "id": "dc-prithvi-shaw",
     "voiceIntro": "Hey, I'm Prithvi Shaw, the attacking opener who loves fast starts for DC.",
     "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2026/51.png"
+  },
+  {
+    "id": "rr-shane-watson",
+    "teamId": "rr",
+    "name": "Shane Watson",
+    "role": "All-Rounder",
+    "jerseyNumber": 33,
+    "country": "Australia",
+    "age": 45,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "traits": [
+      "foreign",
+      "all-rounder",
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Title-winning all-rounder whose power and seam bowling defined RR's early identity.",
+    "achievements": [
+      "IPL winner",
+      "Orange Cap winner",
+      "RR legend"
+    ],
+    "voiceIntro": "Hey, I'm Shane Watson, and I always liked influencing both halves of a match.",
+    "stats": {
+      "matches": 145,
+      "runs": 3874,
+      "wickets": 92,
+      "strikeRate": 137.9,
+      "battingAverage": 30.8,
+      "bestPerformance": "117* vs SRH"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SHANE_WATSON_%2811705862116%29.jpg/960px-SHANE_WATSON_%2811705862116%29.jpg"
+  },
+  {
+    "role": "Batsman",
+    "country": "Australia",
+    "age": 51,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "anchor",
+      "middle-order",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Mr Cricket, a calm left-handed run machine who gave CSK stability and finals composure.",
+    "achievements": [
+      "Orange Cap winner",
+      "Multiple IPL titles",
+      "CSK title winner"
+    ],
+    "voiceIntro": "Hey, I'm Michael Hussey, the calm left-hander CSK trusted in big games.",
+    "stats": {
+      "matches": 59,
+      "runs": 1977,
+      "wickets": 0,
+      "strikeRate": 122.6,
+      "battingAverage": 38.8,
+      "bestPerformance": "116* vs PBKS"
+    },
+    "name": "Michael Hussey",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Michael_Hussey_2022.jpg"
+  },
+  {
+    "role": "Batsman",
+    "country": "Australia",
+    "age": 54,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Fearless Australian opener who brought raw power and the famous Mongoose bat to CSK.",
+    "achievements": [
+      "Orange Cap winner",
+      "CSK powerplay icon",
+      "Australia great"
+    ],
+    "voiceIntro": "Hey, I'm Matthew Hayden, and I liked starting IPL innings with force.",
+    "stats": {
+      "matches": 32,
+      "runs": 1107,
+      "wickets": 0,
+      "strikeRate": 137.5,
+      "battingAverage": 36.9,
+      "bestPerformance": "93 vs DD"
+    },
+    "name": "Matthew Hayden",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Matthew_Hayden_Image.jpg"
+  },
+  {
+    "role": "Batsman",
+    "country": "India",
+    "age": 40,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "finisher",
+      "match-winner",
+      "legend"
+    ],
+    "bio": "Flexible Indian batter who won titles with calm middle-order knocks and late-over hitting.",
+    "achievements": [
+      "Multiple IPL titles",
+      "CSK and MI title winner",
+      "IPL century maker"
+    ],
+    "voiceIntro": "Hey, I'm Ambati Rayudu, the middle-order batter who loved title runs.",
+    "stats": {
+      "matches": 204,
+      "runs": 4348,
+      "wickets": 0,
+      "strikeRate": 127.5,
+      "battingAverage": 28.2,
+      "bestPerformance": "100* vs SRH"
+    },
+    "name": "Ambati Rayudu",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ambati_Rayudu.jpg"
+  },
+  {
+    "id": "csk-dwayne-bravo",
+    "teamId": "csk",
+    "name": "Dwayne Bravo",
+    "role": "All-Rounder",
+    "jerseyNumber": 47,
+    "country": "West Indies",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "traits": [
+      "foreign",
+      "all-rounder",
+      "pace",
+      "death-bowler",
+      "finisher",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Death-overs expert and late-order entertainer with huge T20 pedigree.",
+    "achievements": [
+      "Purple Cap winner",
+      "CSK title winner",
+      "T20 all-round icon"
+    ],
+    "voiceIntro": "Hey, I'm Dwayne Bravo, the all-round showman trusted in the toughest overs.",
+    "stats": {
+      "matches": 161,
+      "runs": 1560,
+      "wickets": 183,
+      "strikeRate": 17.1,
+      "battingAverage": 22.4,
+      "bestPerformance": "4/22 vs MI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bravo_at_IIFA_2017_Green_Carpet.jpg/960px-Bravo_at_IIFA_2017_Green_Carpet.jpg"
+  },
+  {
+    "id": "rcb-ab-de-villiers",
+    "teamId": "rcb",
+    "name": "AB de Villiers",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 17,
+    "country": "South Africa",
+    "age": 42,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "wicketkeeper",
+      "aggressive",
+      "middle-order",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "360-degree genius who turned impossible RCB chases into unforgettable nights.",
+    "achievements": [
+      "Mr. 360",
+      "RCB legend",
+      "One of T20's best finishers"
+    ],
+    "voiceIntro": "Hey, I'm AB de Villiers, the batter who loved every angle of the ground.",
+    "stats": {
+      "matches": 184,
+      "runs": 5162,
+      "wickets": 0,
+      "strikeRate": 151.7,
+      "battingAverage": 39.7,
+      "bestPerformance": "133* vs MI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/AB_de_villiers_%28cropped%29.jpg"
+  },
+  {
+    "id": "rcb-chris-gayle",
+    "teamId": "rcb",
+    "name": "Chris Gayle",
+    "role": "Batsman",
+    "jerseyNumber": 333,
+    "country": "West Indies",
+    "age": 47,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "The Universe Boss, famous for towering sixes and record-breaking powerplay destruction.",
+    "achievements": [
+      "Highest IPL score",
+      "T20 icon",
+      "RCB cult hero"
+    ],
+    "voiceIntro": "Hey, I'm Chris Gayle, and I never needed long to take over a game.",
+    "stats": {
+      "matches": 142,
+      "runs": 4965,
+      "wickets": 18,
+      "strikeRate": 148.9,
+      "battingAverage": 39.7,
+      "bestPerformance": "175* vs PWI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Two_views_of_Chris_Gayle_%2848020785077%29.jpg/960px-Two_views_of_Chris_Gayle_%2848020785077%29.jpg"
+  },
+  {
+    "role": "Batsman",
+    "country": "India",
+    "age": 53,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "anchor",
+      "captain",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Classical top-order great who gave RCB and Rajasthan calm leadership and reliable runs.",
+    "achievements": [
+      "India captain",
+      "RCB icon",
+      "Rajasthan Royals mentor figure"
+    ],
+    "voiceIntro": "Hey, I'm Rahul Dravid, and calm batting was always my foundation.",
+    "stats": {
+      "matches": 89,
+      "runs": 2174,
+      "wickets": 0,
+      "strikeRate": 115.5,
+      "battingAverage": 28.2,
+      "bestPerformance": "75* vs RR"
+    },
+    "name": "Rahul Dravid",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Rahul_Dravid_in_2024.jpg"
+  },
+  {
+    "id": "rcb-anil-kumble",
+    "teamId": "rcb",
+    "name": "Anil Kumble",
+    "role": "Bowler",
+    "jerseyNumber": 19,
+    "country": "India",
+    "age": 56,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "spin",
+      "captain",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "RCB captain and leg-spin master who delivered one of the greatest bowling spells in IPL history.",
+    "achievements": [
+      "5/5 vs RR",
+      "RCB captain",
+      "India legend"
+    ],
+    "voiceIntro": "Hey, I'm Anil Kumble, a leg-spinner who chased wickets every single over.",
+    "stats": {
+      "matches": 42,
+      "runs": 35,
+      "wickets": 45,
+      "strikeRate": 18.7,
+      "battingAverage": 8.8,
+      "bestPerformance": "5/5 vs RR"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anil_Kumble_%281%29.jpg"
+  },
+  {
+    "id": "srh-dale-steyn",
+    "teamId": "srh",
+    "name": "Dale Steyn",
+    "role": "Bowler",
+    "jerseyNumber": 8,
+    "country": "South Africa",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "foreign",
+      "pace",
+      "powerplay-specialist",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Express fast bowler who made the new ball feel dangerous every over.",
+    "achievements": [
+      "Fast-bowling great",
+      "SRH pace icon",
+      "Powerplay threat"
+    ],
+    "voiceIntro": "Hey, I'm Dale Steyn, and the first spell is where I like to strike.",
+    "stats": {
+      "matches": 95,
+      "runs": 65,
+      "wickets": 97,
+      "strikeRate": 17.8,
+      "battingAverage": 8.1,
+      "bestPerformance": "3/8 vs MI"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Dale_Steyn_YM.jpg"
+  },
+  {
+    "id": "mi-sachin-tendulkar",
+    "teamId": "mi",
+    "name": "Sachin Tendulkar",
+    "role": "Batsman",
+    "jerseyNumber": 10,
+    "country": "India",
+    "age": 53,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "legend",
+      "anchor",
+      "opener",
+      "match-winner"
+    ],
+    "bio": "Mumbai icon whose timing and calm leadership shaped early MI cricket.",
+    "achievements": [
+      "Orange Cap winner",
+      "MI legend",
+      "Master Blaster"
+    ],
+    "voiceIntro": "Hey, I'm Sachin Tendulkar, and batting for Mumbai always felt special.",
+    "stats": {
+      "matches": 78,
+      "runs": 2334,
+      "wickets": 0,
+      "strikeRate": 119.8,
+      "battingAverage": 34.8,
+      "bestPerformance": "100* vs KTK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit%2826271019082%29.jpg/960px-The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit%2826271019082%29.jpg"
+  },
+  {
+    "id": "mi-kieron-pollard",
+    "teamId": "mi",
+    "name": "Kieron Pollard",
+    "role": "All-Rounder",
+    "jerseyNumber": 55,
+    "country": "West Indies",
+    "age": 39,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "traits": [
+      "foreign",
+      "all-rounder",
+      "aggressive",
+      "finisher",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Power-packed all-rounder who gave MI some of their most brutal finishes.",
+    "achievements": [
+      "Multiple IPL titles",
+      "MI legend",
+      "Elite finisher"
+    ],
+    "voiceIntro": "Hey, I'm Kieron Pollard, and pressure overs were my kind of fun.",
+    "stats": {
+      "matches": 189,
+      "runs": 3412,
+      "wickets": 69,
+      "strikeRate": 147.3,
+      "battingAverage": 28.7,
+      "bestPerformance": "87* vs CSK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Kieron_Pollard.jpg"
+  },
+  {
+    "id": "mi-lasith-malinga",
+    "teamId": "mi",
+    "name": "Lasith Malinga",
+    "role": "Bowler",
+    "jerseyNumber": 99,
+    "country": "Sri Lanka",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "foreign",
+      "pace",
+      "death-bowler",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Yorker king whose sling action and death bowling made him an IPL icon.",
+    "achievements": [
+      "Multiple IPL titles",
+      "MI legend",
+      "Death overs specialist"
+    ],
+    "voiceIntro": "Hey, I'm Lasith Malinga, and yorkers under pressure were my signature.",
+    "stats": {
+      "matches": 122,
+      "runs": 13,
+      "wickets": 170,
+      "strikeRate": 16.6,
+      "battingAverage": 6.5,
+      "bestPerformance": "5/13 vs DD"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lasith_Malinga_tossing_a_cricket_ball_at_practice.jpg/960px-Lasith_Malinga_tossing_a_cricket_ball_at_practice.jpg"
+  },
+  {
+    "role": "Bowler",
+    "country": "India",
+    "age": 45,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "spin",
+      "all-rounder",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Combative off-spinner and lower-order hitter who was central to Mumbai's early title identity.",
+    "achievements": [
+      "Multiple IPL titles",
+      "India great",
+      "150 IPL wickets"
+    ],
+    "voiceIntro": "Hey, I'm Harbhajan Singh, an off-spinner who loved the big contest.",
+    "stats": {
+      "matches": 163,
+      "runs": 833,
+      "wickets": 150,
+      "strikeRate": 23.4,
+      "battingAverage": 15.1,
+      "bestPerformance": "5/18 vs CSK"
+    },
+    "name": "Harbhajan Singh",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Shri_Harbhajan_Singh_2015.jpg"
+  },
+  {
+    "id": "kkr-gautam-gambhir",
+    "teamId": "kkr",
+    "name": "Gautam Gambhir",
+    "role": "Batsman",
+    "jerseyNumber": 23,
+    "country": "India",
+    "age": 45,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "captain",
+      "left-hander",
+      "anchor",
+      "opener",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "KKR leader whose grit and top-order control helped shape a title-winning era.",
+    "achievements": [
+      "Two-time IPL-winning captain",
+      "KKR legend",
+      "India World Cup hero"
+    ],
+    "voiceIntro": "Hey, I'm Gautam Gambhir, and I always liked setting the tone from the top.",
+    "stats": {
+      "matches": 154,
+      "runs": 4217,
+      "wickets": 0,
+      "strikeRate": 123.9,
+      "battingAverage": 31,
+      "bestPerformance": "93 vs RCB"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Padma_Shri_Gautam_Gambhir_%28cropped%29.jpg"
+  },
+  {
+    "id": "kkr-robin-uthappa",
+    "teamId": "kkr",
+    "name": "Robin Uthappa",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 7,
+    "country": "India",
+    "age": 41,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "wicketkeeper",
+      "aggressive",
+      "opener",
+      "middle-order",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Versatile batter who played a huge role in KKR's title-winning run machine years.",
+    "achievements": [
+      "Orange Cap winner",
+      "IPL title winner",
+      "Explosive top-order hitter"
+    ],
+    "voiceIntro": "Hey, I'm Robin Uthappa, and fast starts were always on my mind.",
+    "stats": {
+      "matches": 205,
+      "runs": 4952,
+      "wickets": 0,
+      "strikeRate": 130.4,
+      "battingAverage": 27.5,
+      "bestPerformance": "87* vs CSK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Robin_Uthappa_1.jpg"
+  },
+  {
+    "role": "All-Rounder",
+    "country": "India",
+    "age": 43,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "all-rounder",
+      "aggressive",
+      "finisher",
+      "middle-order",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Explosive all-rounder who could change games in a few overs with brutal hitting and useful off-spin.",
+    "achievements": [
+      "IPL title winner",
+      "Fast IPL century",
+      "KKR and RR cult hero"
+    ],
+    "voiceIntro": "Hey, I'm Yusuf Pathan, and momentum was my favourite thing to steal.",
+    "stats": {
+      "matches": 174,
+      "runs": 3204,
+      "wickets": 42,
+      "strikeRate": 142.9,
+      "battingAverage": 29.1,
+      "bestPerformance": "100 vs MI"
+    },
+    "name": "Yusuf Pathan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Yusuf_Pathan.jpg"
+  },
+  {
+    "name": "Shikhar Dhawan",
+    "teamId": "pbks",
+    "role": "Batsman",
+    "jerseyNumber": 42,
+    "country": "India",
+    "age": 40,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "left-hander",
+      "opener",
+      "anchor",
+      "captain",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Graceful left-handed opener and one of the IPL's most consistent run-scorers.",
+    "achievements": [
+      "Two-time IPL century maker",
+      "Former PBKS captain",
+      "IPL 6000-run club"
+    ],
+    "introTag": "the graceful left-handed opener who makes chases look tidy",
+    "stats": {
+      "matches": 222,
+      "runs": 6769,
+      "wickets": 4,
+      "strikeRate": 127.1,
+      "battingAverage": 35.3,
+      "bestPerformance": "106* vs PBKS"
+    },
+    "id": "pbks-shikhar-dhawan",
+    "voiceIntro": "Hey, I'm Shikhar Dhawan, the left-handed opener who loved setting the tone.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/SHIKHAR_DHAWAN_%2816005494418%29.jpg/960px-SHIKHAR_DHAWAN_%2816005494418%29.jpg"
+  },
+  {
+    "role": "Bowler",
+    "country": "Australia",
+    "age": 52,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "foreign",
+      "spin",
+      "captain",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Legendary leg-spinner and inspirational captain who led Rajasthan to the first IPL title.",
+    "achievements": [
+      "IPL-winning captain",
+      "RR legend",
+      "All-time spin great"
+    ],
+    "voiceIntro": "Hey, I'm Shane Warne, the leg-spinner who made Rajasthan believe.",
+    "stats": {
+      "matches": 55,
+      "runs": 198,
+      "wickets": 57,
+      "strikeRate": 21.5,
+      "battingAverage": 9.4,
+      "bestPerformance": "4/21 vs DC"
+    },
+    "name": "Shane Warne",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Shane_Warne_February_2015.jpg/960px-Shane_Warne_February_2015.jpg"
+  },
+  {
+    "id": "pbks-shaun-marsh",
+    "teamId": "pbks",
+    "name": "Shaun Marsh",
+    "role": "Batsman",
+    "jerseyNumber": 9,
+    "country": "Australia",
+    "age": 43,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "anchor",
+      "opener",
+      "match-winner"
+    ],
+    "bio": "Silky left-handed opener whose batting class made him one of Punjab's best scorers.",
+    "achievements": [
+      "First IPL Orange Cap winner",
+      "PBKS batting pillar",
+      "Consistent opener"
+    ],
+    "voiceIntro": "Hey, I'm Shaun Marsh, and I liked letting timing do the work.",
+    "stats": {
+      "matches": 71,
+      "runs": 2477,
+      "wickets": 0,
+      "strikeRate": 132.7,
+      "battingAverage": 39.9,
+      "bestPerformance": "115 vs RR"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Shaun_Marsh.jpg"
+  },
+  {
+    "id": "dc-virender-sehwag",
+    "teamId": "dc",
+    "name": "Virender Sehwag",
+    "role": "Batsman",
+    "jerseyNumber": 44,
+    "country": "India",
+    "age": 48,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "aggressive",
+      "opener",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Fearless opener who treated bowlers the same way in Tests, ODIs, and the IPL.",
+    "achievements": [
+      "Triple-century Test batter",
+      "IPL hundred maker",
+      "Explosive opener"
+    ],
+    "voiceIntro": "Hey, I'm Virender Sehwag, and I always believed in attacking my way out.",
+    "stats": {
+      "matches": 104,
+      "runs": 2728,
+      "wickets": 0,
+      "strikeRate": 155.4,
+      "battingAverage": 27.6,
+      "bestPerformance": "122 vs CSK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Virender_Sehwag_at_the_NDTV_Marks_for_Sports_event_13.jpg"
   }
 ]

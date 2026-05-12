@@ -21,6 +21,7 @@ export type Trait =
   | "anchor"
   | "finisher"
   | "captain"
+  | "current-captain"
   | "india-captain"
   | "wicketkeeper"
   | "mystery-spinner"
@@ -35,7 +36,9 @@ export type Trait =
   | "youngster"
   | "opener"
   | "middle-order"
-  | "match-winner";
+  | "match-winner"
+  | "active"
+  | "retired";
 
 export interface PlayerStats {
   matches: number;
