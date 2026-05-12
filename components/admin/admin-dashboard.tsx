@@ -458,7 +458,7 @@ export function AdminDashboard({ initialPlayers, initialQuestions }: AdminDashbo
                 }
                 className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none"
               >
-                {["team", "role", "style", "career", "identity"].map((category) => (
+                {["team", "role", "style", "career", "identity", "player", "stats"].map((category) => (
                   <option key={category} value={category} className="bg-slate-950">
                     {category}
                   </option>
@@ -480,7 +480,25 @@ export function AdminDashboard({ initialPlayers, initialQuestions }: AdminDashbo
                 }
                 className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none"
               >
-                {["teamId", "role", "country", "battingStyle", "bowlingStyle", "traits", "age", "jerseyNumber", "name"].map((field) => (
+                {[
+                  "teamId",
+                  "role",
+                  "country",
+                  "battingStyle",
+                  "bowlingStyle",
+                  "traits",
+                  "bio",
+                  "achievements",
+                  "age",
+                  "jerseyNumber",
+                  "name",
+                  "stats.matches",
+                  "stats.runs",
+                  "stats.wickets",
+                  "stats.strikeRate",
+                  "stats.battingAverage",
+                  "stats.bestPerformance"
+                ].map((field) => (
                   <option key={field} value={field} className="bg-slate-950">
                     {field}
                   </option>
@@ -511,7 +529,15 @@ export function AdminDashboard({ initialPlayers, initialQuestions }: AdminDashbo
                     rule: {
                       ...selectedQuestion.rule,
                       value:
-                        selectedQuestion.rule.field === "age" || selectedQuestion.rule.field === "jerseyNumber"
+                        [
+                          "age",
+                          "jerseyNumber",
+                          "stats.matches",
+                          "stats.runs",
+                          "stats.wickets",
+                          "stats.strikeRate",
+                          "stats.battingAverage"
+                        ].includes(selectedQuestion.rule.field)
                           ? Number(event.target.value)
                           : event.target.value
                     }

@@ -81,9 +81,17 @@ export type QuestionField =
   | "battingStyle"
   | "bowlingStyle"
   | "traits"
+  | "bio"
+  | "achievements"
   | "age"
   | "jerseyNumber"
-  | "name";
+  | "name"
+  | "stats.matches"
+  | "stats.runs"
+  | "stats.wickets"
+  | "stats.strikeRate"
+  | "stats.battingAverage"
+  | "stats.bestPerformance";
 
 export type QuestionOperator =
   | "equals"
@@ -102,7 +110,7 @@ export interface QuestionDefinition {
   id: string;
   prompt: string;
   description: string;
-  category: "team" | "role" | "style" | "career" | "identity";
+  category: "team" | "role" | "style" | "career" | "identity" | "player" | "stats";
   priority: number;
   rule: QuestionRule;
 }

@@ -4,7 +4,17 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import confetti from "canvas-confetti";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
-import { BrainCircuit, Crown, LoaderCircle, Mic2, Radar, Sparkles, Trophy, Volume2, VolumeX } from "lucide-react";
+import {
+  BrainCircuit,
+  Crown,
+  LoaderCircle,
+  Mic2,
+  Radar,
+  Sparkles,
+  Trophy,
+  Volume2,
+  VolumeX
+} from "lucide-react";
 
 import { PlayerPortrait } from "@/components/player/player-portrait";
 import { GlassPanel } from "@/components/ui/glass-panel";
@@ -30,6 +40,7 @@ interface GameResponseQuestion {
   candidates: Player[];
   remaining: number;
   confidence: number;
+  questionBankSize: number;
 }
 
 interface GameResponseGuess {
@@ -39,6 +50,7 @@ interface GameResponseGuess {
   candidates: Player[];
   confidence: number;
   story: string;
+  questionBankSize: number;
 }
 
 type GameResponse = GameResponseQuestion | GameResponseGuess;
@@ -144,6 +156,7 @@ export function GameShell({ players, questions, initialTeamId, mode }: GameShell
 
   const confidenceLabel =
     response && `${Math.round(response.confidence * 100)}% match confidence`;
+  const questionBankSize = response?.questionBankSize ?? questions.length;
 
   return (
     <div className="grid gap-6 xl:grid-cols-[1.15fr,0.85fr]">
@@ -156,8 +169,8 @@ export function GameShell({ players, questions, initialTeamId, mode }: GameShell
                 AI IPL Akinator
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-white/74">
-                Think of any IPL player. I’ll ask one smart cricket question at a time and narrow the field the way a
-                sharp captain reads matchups before the next over.
+                Think of any IPL player silently. I’ll ask one Akinator-style cricket question at a time and narrow the
+                field from your answers only.
               </p>
             </div>
 
@@ -218,14 +231,15 @@ export function GameShell({ players, questions, initialTeamId, mode }: GameShell
                   <p className="mt-3 font-display text-3xl text-white">{answers.length}</p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-black/20 p-4 sm:col-span-2">
-                  <p className="text-white/60">Question Bank</p>
-                  <p className="mt-3 font-display text-3xl text-white">{questions.length}</p>
+                  <p className="text-white/60">AI Question Bank</p>
+                  <p className="mt-3 font-display text-3xl text-white">{questionBankSize}</p>
                 </div>
               </div>
               <p className="mt-4 text-sm text-white/60">
                 Mode: <span className="text-white">{mode === "daily" ? "Daily Quiz" : mode === "random" ? "Random Player" : "Classic"}</span>
               </p>
             </div>
+
           </div>
 
           {error ? <p className="rounded-2xl border border-red-400/30 bg-red-400/10 px-4 py-3 text-sm text-red-100">{error}</p> : null}
@@ -395,7 +409,7 @@ export function GameShell({ players, questions, initialTeamId, mode }: GameShell
             <p className="font-accent text-xs uppercase tracking-[0.3em]">Shortlist Board</p>
           </div>
           <p className="mt-3 text-sm leading-6 text-white/70">
-            The model blends decision-tree filtering with optional OpenAI rewriting to keep every question grounded in cricket logic.
+            The model reads only your answers, then chooses the next IPL, stats, role, team, or player-profile question.
           </p>
           <div className="mt-5 grid gap-3">
             {(response?.candidates ?? activePlayers.slice(0, 5)).slice(0, 5).map((player, index) => (

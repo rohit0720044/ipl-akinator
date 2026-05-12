@@ -7,12 +7,14 @@ import { PageShell } from "@/components/layout/page-shell";
 import { GlassPanel } from "@/components/ui/glass-panel";
 import { NeonButton } from "@/components/ui/neon-button";
 import { TEAMS } from "@/lib/data/teams";
-import { getPlayers } from "@/lib/server/store";
+import { buildAdvancedQuestionBank } from "@/lib/game/engine";
+import { getPlayers, getQuestions } from "@/lib/server/store";
 
 export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
-  const players = await getPlayers();
+  const [players, questions] = await Promise.all([getPlayers(), getQuestions()]);
+  const questionBankSize = buildAdvancedQuestionBank(players, questions).length;
 
   return (
     <PageShell>
@@ -45,7 +47,7 @@ export default async function HomePage() {
             {[
               { label: "IPL Teams", value: "10" },
               { label: "Seed Player Profiles", value: String(players.length) },
-              { label: "AI Question Cards", value: "30+" }
+              { label: "Dynamic AI Questions", value: String(questionBankSize) }
             ].map((item) => (
               <div key={item.label} className="rounded-[26px] border border-white/10 bg-black/15 p-5">
                 <p className="font-accent text-xs uppercase tracking-[0.28em] text-white/60">{item.label}</p>
@@ -63,9 +65,9 @@ export default async function HomePage() {
 
           <div className="mt-6 space-y-4">
             {[
-              "Think of any IPL player silently. No typing needed.",
-              "The AI asks human-like cricket questions one at a time.",
-              "Answers narrow the field through decision logic plus OpenAI question phrasing.",
+              "Think of any IPL player silently. Do not type or show the name.",
+              "The AI asks human-like cricket, stat, team, and player-profile questions one at a time.",
+              "Answers narrow the field through dynamic ranking plus optional OpenAI question phrasing.",
               "A big-screen reveal card lands on the final guess with stats and achievements."
             ].map((step, index) => (
               <div key={step} className="rounded-[24px] border border-white/10 bg-black/15 p-5">

@@ -1,6 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { pickBestQuestion, rankCandidates, shouldMakeGuess, buildGuessStory } from "@/lib/game/engine";
+import {
+  buildAdvancedQuestionBank,
+  buildGuessStory,
+  pickBestQuestion,
+  rankCandidates,
+  shouldMakeGuess
+} from "@/lib/game/engine";
 import { humanizeQuestion, dramaticReveal } from "@/lib/server/openai";
 import { getPlayers, getQuestions } from "@/lib/server/store";
 import { GameAnswer, TeamId } from "@/types";
@@ -17,8 +23,9 @@ export async function POST(request: NextRequest) {
   const payload = (await request.json()) as RequestPayload;
   const answers = payload.answers ?? [];
   const [players, questions] = await Promise.all([getPlayers(), getQuestions()]);
+  const advancedQuestions = buildAdvancedQuestionBank(players, questions);
 
-  const ranked = rankCandidates(players, questions, answers, payload.teamId);
+  const ranked = rankCandidates(players, advancedQuestions, answers, payload.teamId);
 
   if (ranked.length === 0) {
     return NextResponse.json(
@@ -38,16 +45,20 @@ export async function POST(request: NextRequest) {
       dramaticLine: await dramaticReveal(guess),
       story: buildGuessStory(guess),
       confidence: ranked[0].confidence,
-      candidates: ranked.slice(0, 5).map((candidate) => candidate.player)
+      candidates: ranked.slice(0, 5).map((candidate) => candidate.player),
+      questionBankSize: advancedQuestions.length
     });
   }
 
-  const question = pickBestQuestion(players, questions, answers, payload.teamId) ?? questions[0];
-  const humanPrompt = await humanizeQuestion(
-    question,
-    ranked.slice(0, 5).map((candidate) => candidate.player),
-    answers
-  );
+  const question = pickBestQuestion(players, advancedQuestions, answers, payload.teamId) ?? advancedQuestions[0];
+  const humanPrompt =
+    question.id === "identity-indian-or-international"
+      ? question.prompt
+      : await humanizeQuestion(
+          question,
+          ranked.slice(0, 5).map((candidate) => candidate.player),
+          answers
+        );
 
   return NextResponse.json({
     mode: "question" as const,
@@ -55,6 +66,7 @@ export async function POST(request: NextRequest) {
     humanPrompt,
     candidates: ranked.slice(0, 5).map((candidate) => candidate.player),
     remaining: ranked.length,
-    confidence: ranked[0].confidence
+    confidence: ranked[0].confidence,
+    questionBankSize: advancedQuestions.length
   });
 }
