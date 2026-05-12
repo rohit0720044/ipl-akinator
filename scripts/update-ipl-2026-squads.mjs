@@ -308,6 +308,7 @@ const overseasCountries = {
   "Aiden Markram": "South Africa",
   "Adam Milne": "New Zealand",
   "Allah Ghazanfar": "Afghanistan",
+  "Andre Russell": "West Indies",
   "Anrich Nortje": "South Africa",
   "Azmatullah Omarzai": "Afghanistan",
   "Ben Dwarshuis": "Australia",
@@ -318,14 +319,17 @@ const overseasCountries = {
   "Corbin Bosch": "South Africa",
   "Dasun Shanaka": "Sri Lanka",
   "David Miller": "South Africa",
+  "David Warner": "Australia",
   "Dewald Brevis": "South Africa",
   "Dilshan Madushanka": "Sri Lanka",
   "Donovan Ferreira": "South Africa",
   "Dushmantha Chameera": "Sri Lanka",
   "Eshan Malinga": "Sri Lanka",
+  "Faf du Plessis": "South Africa",
   "Finn Allen": "New Zealand",
   "George Linde": "South Africa",
   "Gerald Coetzee": "South Africa",
+  "Glenn Maxwell": "Australia",
   "Glenn Phillips": "New Zealand",
   "Heinrich Klaasen": "South Africa",
   "Jacob Bethell": "England",
@@ -333,6 +337,7 @@ const overseasCountries = {
   "Jamie Overton": "England",
   "Jason Holder": "West Indies",
   "Jofra Archer": "England",
+  "Jonny Bairstow": "England",
   "Jordan Cox": "England",
   "Josh Hazlewood": "Australia",
   "Josh Inglis": "Australia",
@@ -369,6 +374,7 @@ const overseasCountries = {
   "Romario Shepherd": "West Indies",
   "Rovman Powell": "West Indies",
   "Ryan Rickelton": "South Africa",
+  "Sam Curran": "England",
   "Sherfane Rutherford": "West Indies",
   "Shimron Hetmyer": "West Indies",
   "Spencer Johnson": "Australia",
@@ -384,157 +390,93 @@ const overseasCountries = {
   "Zak Foulkes": "New Zealand"
 };
 
-const notablePlayers = {
+const curatedPlayers = {
   csk: [
-    "Ruturaj Gaikwad",
-    "MS Dhoni",
-    "Sanju Samson",
-    "Dewald Brevis",
-    "Sarfaraz Khan",
-    "Shivam Dube",
-    "Khaleel Ahmed",
-    "Noor Ahmad",
-    "Matt Henry",
-    "Rahul Chahar"
+    ["MS Dhoni", "Wicketkeeper-Batsman"],
+    ["Suresh Raina", "Batsman"],
+    ["Ravindra Jadeja", "All-Rounder"],
+    ["Ruturaj Gaikwad", "Batsman"],
+    ["Ravichandran Ashwin", "All-Rounder"],
+    ["Sam Curran", "All-Rounder"],
+    ["Shivam Dube", "All-Rounder"],
+    ["Devon Conway", "Wicketkeeper-Batsman"]
   ],
   rcb: [
-    "Rajat Patidar",
-    "Devdutt Padikkal",
-    "Virat Kohli",
-    "Phil Salt",
-    "Jitesh Sharma",
-    "Krunal Pandya",
-    "Tim David",
-    "Romario Shepherd",
-    "Venkatesh Iyer",
-    "Josh Hazlewood",
-    "Bhuvneshwar Kumar",
-    "Yash Dayal"
+    ["Tim David", "All-Rounder"],
+    ["Krunal Pandya", "All-Rounder"],
+    ["Virat Kohli", "Batsman"],
+    ["Rajat Patidar", "Batsman"],
+    ["Josh Hazlewood", "Bowler"],
+    ["Phil Salt", "Wicketkeeper-Batsman"],
+    ["Cameron Green", "All-Rounder"],
+    ["Bhuvneshwar Kumar", "Bowler"]
   ],
   mi: [
-    "Rohit Sharma",
-    "Surya Kumar Yadav",
-    "Quinton de Kock",
-    "N. Tilak Varma",
-    "Hardik Pandya",
-    "Naman Dhir",
-    "Will Jacks",
-    "Shardul Thakur",
-    "Trent Boult",
-    "Deepak Chahar",
-    "Keshav Maharaj",
-    "Jasprit Bumrah"
+    ["Deepak Chahar", "Bowler"],
+    ["Rohit Sharma", "Batsman"],
+    ["Hardik Pandya", "All-Rounder"],
+    ["Jasprit Bumrah", "Bowler"],
+    ["Suryakumar Yadav", "Batsman"],
+    ["Tilak Varma", "Batsman"],
+    ["Ryan Rickelton", "Wicketkeeper-Batsman"],
+    ["Trent Boult", "Bowler"]
   ],
   gt: [
-    "Shubman Gill",
-    "Jos Buttler",
-    "Glenn Phillips",
-    "Sai Sudharsan",
-    "Washington Sundar",
-    "Sai Kishore",
-    "Jason Holder",
-    "Rahul Tewatia",
-    "Shahrukh Khan",
-    "Kagiso Rabada",
-    "Mohammed Siraj",
-    "Prasidh Krishna",
-    "Ishant Sharma",
-    "Rashid Khan"
+    ["Mohammed Siraj", "Bowler"],
+    ["Jos Buttler", "Wicketkeeper-Batsman"],
+    ["Shubman Gill", "Batsman"],
+    ["Rashid Khan", "Bowler"],
+    ["Sai Sudharsan", "Batsman"],
+    ["Kagiso Rabada", "Bowler"],
+    ["Rahul Tewatia", "All-Rounder"]
   ],
   kkr: [
-    "Ajinkya Rahane",
-    "Rinku Singh",
-    "Manish Pandey",
-    "Finn Allen",
-    "Rahul Tripathi",
-    "Rovman Powell",
-    "Cameron Green",
-    "Rachin Ravindra",
-    "Ramandeep Singh",
-    "Sunil Narine",
-    "Matheesha Pathirana",
-    "Umran Malik",
-    "Varun Chakaravarthy"
+    ["Quinton de Kock", "Wicketkeeper-Batsman"],
+    ["Andre Russell", "All-Rounder"],
+    ["Sunil Narine", "All-Rounder"],
+    ["Rinku Singh", "Batsman"],
+    ["Varun Chakravarthy", "Bowler"],
+    ["Ajinkya Rahane", "Batsman"]
   ],
   srh: [
-    "Ishan Kishan",
-    "Heinrich Klaasen",
-    "Travis Head",
-    "Harshal Patel",
-    "Kamindu Mendis",
-    "Liam Livingstone",
-    "Abhishek Sharma",
-    "Nitish Kumar Reddy",
-    "Pat Cummins",
-    "Jaydev Unadkat",
-    "Dilshan Madushanka",
-    "Gerald Coetzee"
+    ["Ishan Kishan", "Wicketkeeper-Batsman"],
+    ["Pat Cummins", "Bowler"],
+    ["Travis Head", "Batsman"],
+    ["Heinrich Klaasen", "Wicketkeeper-Batsman"],
+    ["Abhishek Sharma", "All-Rounder"],
+    ["Mohammed Shami", "Bowler"]
   ],
   rr: [
-    "Shubham Dubey",
-    "Vaibhav Sooryavanshi",
-    "Shimron Hetmyer",
-    "Yashasvi Jaiswal",
-    "Dhruv Jurel",
-    "Riyan Parag",
-    "Ravindra Jadeja",
-    "Dasun Shanaka",
-    "Jofra Archer",
-    "Tushar Deshpande",
-    "Ravi Bishnoi",
-    "Adam Milne",
-    "Sandeep Sharma",
-    "Nandre Burger"
+    ["Trent Boult", "Bowler"],
+    ["Nitish Rana", "Batsman"],
+    ["Sanju Samson", "Wicketkeeper-Batsman"],
+    ["Jofra Archer", "Bowler"],
+    ["Riyan Parag", "All-Rounder"],
+    ["Yashasvi Jaiswal", "Batsman"]
   ],
   pbks: [
-    "Shreyas Iyer",
-    "Nehal Wadhera",
-    "Vishnu Vinod",
-    "Prabhsimran Singh",
-    "Shashank Singh",
-    "Marcus Stoinis",
-    "Harpreet Brar",
-    "Marco Jansen",
-    "Azmatullah Omarzai",
-    "Priyansh Arya",
-    "Arshdeep Singh",
-    "Yuzvendra Chahal",
-    "Yash Thakur",
-    "Lockie Ferguson"
+    ["Shreyas Iyer", "Batsman"],
+    ["Glenn Maxwell", "All-Rounder"],
+    ["Yuzvendra Chahal", "Bowler"],
+    ["Arshdeep Singh", "Bowler"],
+    ["Marcus Stoinis", "All-Rounder"],
+    ["Jonny Bairstow", "Wicketkeeper-Batsman"]
   ],
   lsg: [
-    "Rishabh Pant",
-    "Aiden Markram",
-    "Matthew Breetzke",
-    "Josh Inglis",
-    "Nicholas Pooran",
-    "Mitchell Marsh",
-    "Abdul Samad",
-    "Shahbaz Ahamad",
-    "Ayush Badoni",
-    "Mohammad Shami",
-    "Avesh Khan",
-    "Anrich Nortje",
-    "Mayank Yadav",
-    "Mohsin Khan"
+    ["Rishabh Pant", "Wicketkeeper-Batsman"],
+    ["David Miller", "Batsman"],
+    ["Nicholas Pooran", "Wicketkeeper-Batsman"],
+    ["Ravi Bishnoi", "Bowler"],
+    ["Mayank Yadav", "Bowler"],
+    ["Aiden Markram", "Batsman"]
   ],
   dc: [
-    "KL Rahul",
-    "Karun Nair",
-    "David Miller",
-    "Pathum Nissanka",
-    "Prithvi Shaw",
-    "Abishek Porel",
-    "Tristan Stubbs",
-    "Axar Patel",
-    "Sameer Rizvi",
-    "Ashutosh Sharma",
-    "Nitish Rana",
-    "Mitchell Starc",
-    "T. Natarajan",
-    "Mukesh Kumar",
-    "Dushmantha Chameera",
-    "Kuldeep Yadav"
+    ["Faf du Plessis", "Batsman"],
+    ["David Warner", "Batsman"],
+    ["KL Rahul", "Wicketkeeper-Batsman"],
+    ["Mitchell Starc", "Bowler"],
+    ["Axar Patel", "All-Rounder"],
+    ["Prithvi Shaw", "Batsman"]
   ]
 };
 
@@ -587,21 +529,62 @@ function defaultStats(role) {
 
 function playerDescription(name, role, teamId, captain) {
   const team = teamNames[teamId];
-  if (captain === name) return `Current ${team} captain in the official IPL 2026 squad.`;
-  if (role === "Wicketkeeper-Batsman") return `Wicketkeeper-batter in the official ${team} IPL 2026 squad.`;
-  if (role === "All-Rounder") return `All-rounder in the official ${team} IPL 2026 squad.`;
-  if (role === "Bowler") return `Bowler in the official ${team} IPL 2026 squad.`;
-  return `Batter in the official ${team} IPL 2026 squad.`;
+  if (captain === name) return `Captain and headline player in the curated ${team} 2026 famous-player roster.`;
+  if (role === "Wicketkeeper-Batsman") return `Wicketkeeper-batter in the curated ${team} 2026 famous-player roster.`;
+  if (role === "All-Rounder") return `All-rounder in the curated ${team} 2026 famous-player roster.`;
+  if (role === "Bowler") return `Bowler in the curated ${team} 2026 famous-player roster.`;
+  return `Batter in the curated ${team} 2026 famous-player roster.`;
 }
 
-const existingPlayers = JSON.parse(await readFile("data/runtime/players.json", "utf8"));
-const existingByName = new Map(existingPlayers.map((player) => [normalize(player.name), player]));
+const captains = {
+  csk: "Ruturaj Gaikwad",
+  rcb: "Rajat Patidar",
+  mi: "Hardik Pandya",
+  gt: "Shubman Gill",
+  kkr: "Ajinkya Rahane",
+  srh: "Pat Cummins",
+  rr: "Sanju Samson",
+  pbks: "Shreyas Iyer",
+  lsg: "Rishabh Pant",
+  dc: "Axar Patel"
+};
 
-const players = Object.entries(squads).flatMap(([teamId, squad]) =>
-  squad.players.filter(([name]) => notablePlayers[teamId].includes(name)).map(([name, role], index) => {
-    const previous = existingByName.get(normalize(name));
+const aliases = {
+  "Suryakumar Yadav": ["Surya Kumar Yadav"],
+  "Tilak Varma": ["N. Tilak Varma"],
+  "Varun Chakravarthy": ["Varun Chakaravarthy"]
+};
+
+const profileFiles = [
+  "data/player-profile-overrides.json",
+  "data/additional-players.json",
+  "data/runtime/players.json",
+  "data/ipl-2026-players.json"
+];
+const existingPlayers = (
+  await Promise.all(profileFiles.map(async (file) => JSON.parse(await readFile(file, "utf8"))))
+).flat();
+const existingByName = new Map();
+for (const player of existingPlayers) {
+  const key = normalize(player.name);
+  if (!existingByName.has(key)) existingByName.set(key, player);
+}
+
+function findPreviousPlayer(name) {
+  const names = [name, ...(aliases[name] ?? [])];
+  for (const candidate of names) {
+    const player = existingByName.get(normalize(candidate));
+    if (player) return player;
+  }
+  return undefined;
+}
+
+const players = Object.entries(curatedPlayers).flatMap(([teamId, roster]) =>
+  roster.map(([name, role], index) => {
+    const previous = findPreviousPlayer(name);
     const id = slugify(`${teamId}-${name}`);
-    const traits = defaultTraits(name, role, squad.captain);
+    const captain = captains[teamId];
+    const traits = defaultTraits(name, role, captain);
     const country = overseasCountries[name] ?? previous?.country ?? "India";
     return {
       ...(previous ?? {}),
@@ -617,10 +600,10 @@ const players = Object.entries(squads).flatMap(([teamId, squad]) =>
         previous?.bowlingStyle ??
         (role === "Bowler" ? "Right-arm fast" : role === "All-Rounder" ? "Right-arm medium" : "Right-arm off break"),
       traits: [...new Set([...(previous?.traits ?? []).filter((trait) => trait !== "captain"), ...traits])],
-      bio: playerDescription(name, role, teamId, squad.captain),
-      achievements: previous?.achievements ?? ["Official IPL 2026 squad member"],
+      bio: previous?.bio ?? playerDescription(name, role, teamId, captain),
+      achievements: previous?.achievements ?? ["Curated IPL 2026 famous-player roster member"],
       introTag:
-        squad.captain === name
+        captain === name
           ? "the current captain"
           : role === "Wicketkeeper-Batsman"
             ? "the wicketkeeper-batter"
@@ -629,7 +612,7 @@ const players = Object.entries(squads).flatMap(([teamId, squad]) =>
               : role === "Bowler"
                 ? "the bowling option"
                 : "the batting option",
-      voiceIntro: `Hey, I'm ${name}, ${squad.captain === name ? "the current captain" : "an official 2026 squad member"} for ${teamNames[teamId]}.`,
+      voiceIntro: `Hey, I'm ${name}, ${captain === name ? "the current captain" : "a featured 2026 famous-player pick"} for ${teamNames[teamId]}.`,
       imageUrl: previous?.imageUrl,
       stats: previous?.stats ?? defaultStats(role)
     };
@@ -648,8 +631,7 @@ if (markerIndex === -1) throw new Error("Could not find SEED_QUESTIONS marker");
 const replacement = `import CURRENT_2026_PLAYERS from "@/data/ipl-2026-players.json";\nimport { Player, QuestionDefinition } from "@/types";\n\nexport const SEED_PLAYERS = CURRENT_2026_PLAYERS as Player[];\n\n`;
 await writeFile(seedPath, replacement + seed.slice(markerIndex), "utf8");
 
-const counts = Object.entries(squads).map(([teamId, squad]) => `${teamId.toUpperCase()}: ${squad.players.length}`);
 const selectedCounts = Object.fromEntries(
-  Object.entries(notablePlayers).map(([teamId, names]) => [teamId.toUpperCase(), names.length])
+  Object.entries(curatedPlayers).map(([teamId, roster]) => [teamId.toUpperCase(), roster.length])
 );
-console.log(`Updated ${players.length} notable 2026 players (${JSON.stringify(selectedCounts)}). Official squad sizes: ${counts.join(", ")}.`);
+console.log(`Updated ${players.length} curated famous 2026 players (${JSON.stringify(selectedCounts)}).`);
