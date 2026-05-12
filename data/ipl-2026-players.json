@@ -1,0 +1,4047 @@
+[
+  {
+    "name": "Ruturaj Gaikwad",
+    "teamId": "csk",
+    "role": "Batsman",
+    "jerseyNumber": 31,
+    "country": "India",
+    "age": 28,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "anchor",
+      "opener",
+      "youngster",
+      "match-winner",
+      "middle-order",
+      "captain"
+    ],
+    "bio": "Current CSK captain in the official IPL 2026 squad.",
+    "achievements": [
+      "IPL title winner",
+      "Orange Cap contender",
+      "CSK captain"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 66,
+      "runs": 2380,
+      "wickets": 0,
+      "strikeRate": 136.9,
+      "battingAverage": 41.4,
+      "bestPerformance": "108 vs RR"
+    },
+    "id": "csk-ruturaj-gaikwad",
+    "voiceIntro": "Hey, I'm Ruturaj Gaikwad, the current captain for CSK."
+  },
+  {
+    "name": "MS Dhoni",
+    "teamId": "csk",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 7,
+    "country": "India",
+    "age": 44,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "legend",
+      "wicketkeeper",
+      "finisher",
+      "match-winner",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "Multiple IPL titles",
+      "Former India captain",
+      "Legendary finisher"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 264,
+      "runs": 5243,
+      "wickets": 0,
+      "strikeRate": 137.5,
+      "battingAverage": 39.7,
+      "bestPerformance": "84* vs RCB"
+    },
+    "id": "csk-ms-dhoni",
+    "voiceIntro": "Hey, I'm MS Dhoni, an official 2026 squad member for CSK."
+  },
+  {
+    "name": "Sanju Samson",
+    "teamId": "csk",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 11,
+    "country": "India",
+    "age": 32,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "aggressive",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Wicketkeeper-batter in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "RR captain",
+      "India wicketkeeper"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 171,
+      "runs": 4562,
+      "wickets": 0,
+      "strikeRate": 139.7,
+      "battingAverage": 31.4,
+      "bestPerformance": "119 vs PBKS"
+    },
+    "id": "csk-sanju-samson",
+    "voiceIntro": "Hey, I'm Sanju Samson, an official 2026 squad member for CSK."
+  },
+  {
+    "id": "csk-dewald-brevis",
+    "name": "Dewald Brevis",
+    "teamId": "csk",
+    "role": "Batsman",
+    "jerseyNumber": 4,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Batter in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Dewald Brevis, an official 2026 squad member for CSK.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "csk-sarfaraz-khan",
+    "name": "Sarfaraz Khan",
+    "teamId": "csk",
+    "role": "Batsman",
+    "jerseyNumber": 6,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Sarfaraz Khan, an official 2026 squad member for CSK.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Shivam Dube",
+    "teamId": "csk",
+    "role": "All-Rounder",
+    "jerseyNumber": 25,
+    "country": "India",
+    "age": 31,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "left-hander",
+      "aggressive",
+      "middle-order",
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "Power-hitting specialist",
+      "India T20 finisher"
+    ],
+    "introTag": "the all-round option",
+    "stats": {
+      "matches": 65,
+      "runs": 1577,
+      "wickets": 7,
+      "strikeRate": 146.4,
+      "battingAverage": 31.2,
+      "bestPerformance": "95* vs KKR"
+    },
+    "id": "csk-shivam-dube",
+    "voiceIntro": "Hey, I'm Shivam Dube, an official 2026 squad member for CSK."
+  },
+  {
+    "id": "csk-khaleel-ahmed",
+    "name": "Khaleel Ahmed",
+    "teamId": "csk",
+    "role": "Bowler",
+    "jerseyNumber": 15,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Khaleel Ahmed, an official 2026 squad member for CSK.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "csk-noor-ahmad",
+    "teamId": "csk",
+    "name": "Noor Ahmad",
+    "role": "Bowler",
+    "jerseyNumber": 11,
+    "country": "Afghanistan",
+    "age": 21,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm wrist spin",
+    "traits": [
+      "foreign",
+      "spin",
+      "youngster",
+      "mystery-spinner",
+      "match-winner",
+      "pace"
+    ],
+    "bio": "Bowler in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "Emerging spinner",
+      "GT wicket-taking option"
+    ],
+    "voiceIntro": "Hey, I'm Noor Ahmad, an official 2026 squad member for CSK.",
+    "stats": {
+      "matches": 26,
+      "runs": 10,
+      "wickets": 31,
+      "strikeRate": 18.5,
+      "battingAverage": 8,
+      "bestPerformance": "3/18 vs MI"
+    },
+    "introTag": "the bowling option"
+  },
+  {
+    "id": "csk-matt-henry",
+    "name": "Matt Henry",
+    "teamId": "csk",
+    "role": "Bowler",
+    "jerseyNumber": 22,
+    "country": "New Zealand",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Matt Henry, an official 2026 squad member for CSK.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "csk-rahul-chahar",
+    "name": "Rahul Chahar",
+    "teamId": "csk",
+    "role": "Bowler",
+    "jerseyNumber": 23,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official CSK IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Rahul Chahar, an official 2026 squad member for CSK.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Rajat Patidar",
+    "teamId": "rcb",
+    "role": "Batsman",
+    "jerseyNumber": 97,
+    "country": "India",
+    "age": 32,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "aggressive",
+      "middle-order",
+      "match-winner",
+      "captain"
+    ],
+    "bio": "Current RCB captain in the official IPL 2026 squad.",
+    "achievements": [
+      "IPL playoff century",
+      "Spin-hitting specialist"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 29,
+      "runs": 873,
+      "wickets": 0,
+      "strikeRate": 151.8,
+      "battingAverage": 34.9,
+      "bestPerformance": "112* vs LSG"
+    },
+    "id": "rcb-rajat-patidar",
+    "voiceIntro": "Hey, I'm Rajat Patidar, the current captain for RCB."
+  },
+  {
+    "id": "rcb-devdutt-padikkal",
+    "name": "Devdutt Padikkal",
+    "teamId": "rcb",
+    "role": "Batsman",
+    "jerseyNumber": 2,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Devdutt Padikkal, an official 2026 squad member for RCB.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Virat Kohli",
+    "teamId": "rcb",
+    "role": "Batsman",
+    "jerseyNumber": 18,
+    "country": "India",
+    "age": 37,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "aggressive",
+      "anchor",
+      "legend",
+      "india-captain",
+      "opener",
+      "match-winner",
+      "middle-order"
+    ],
+    "bio": "Batter in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "Former India captain",
+      "IPL Orange Cap winner",
+      "RCB icon"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 260,
+      "runs": 8190,
+      "wickets": 4,
+      "strikeRate": 132.2,
+      "battingAverage": 39.8,
+      "bestPerformance": "113 vs PBKS"
+    },
+    "id": "rcb-virat-kohli",
+    "voiceIntro": "Hey, I'm Virat Kohli, an official 2026 squad member for RCB."
+  },
+  {
+    "name": "Phil Salt",
+    "teamId": "rcb",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 28,
+    "country": "England",
+    "age": 30,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "wicketkeeper",
+      "aggressive",
+      "opener",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "Explosive powerplay scorer",
+      "England T20 regular"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 21,
+      "runs": 653,
+      "wickets": 0,
+      "strikeRate": 176,
+      "battingAverage": 34.4,
+      "bestPerformance": "89* vs LSG"
+    },
+    "id": "rcb-phil-salt",
+    "voiceIntro": "Hey, I'm Phil Salt, an official 2026 squad member for RCB."
+  },
+  {
+    "name": "Jitesh Sharma",
+    "teamId": "rcb",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 99,
+    "country": "India",
+    "age": 32,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "wicketkeeper",
+      "aggressive",
+      "finisher",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "India T20 call-up",
+      "Power-hitting keeper"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 40,
+      "runs": 872,
+      "wickets": 0,
+      "strikeRate": 151.3,
+      "battingAverage": 25.6,
+      "bestPerformance": "49* vs MI"
+    },
+    "id": "rcb-jitesh-sharma",
+    "voiceIntro": "Hey, I'm Jitesh Sharma, an official 2026 squad member for RCB."
+  },
+  {
+    "id": "rcb-krunal-pandya",
+    "teamId": "rcb",
+    "name": "Krunal Pandya",
+    "role": "All-Rounder",
+    "jerseyNumber": 21,
+    "country": "India",
+    "age": 35,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "traits": [
+      "left-hander",
+      "all-rounder",
+      "spin",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "IPL title winner",
+      "India all-rounder",
+      "Flexible T20 package"
+    ],
+    "voiceIntro": "Hey, I'm Krunal Pandya, an official 2026 squad member for RCB.",
+    "stats": {
+      "matches": 127,
+      "runs": 1753,
+      "wickets": 82,
+      "strikeRate": 132.2,
+      "battingAverage": 22.3,
+      "bestPerformance": "86 vs DC"
+    },
+    "introTag": "the all-round option"
+  },
+  {
+    "id": "rcb-tim-david",
+    "name": "Tim David",
+    "teamId": "rcb",
+    "role": "All-Rounder",
+    "jerseyNumber": 9,
+    "country": "Australia",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Tim David, an official 2026 squad member for RCB.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "rcb-romario-shepherd",
+    "name": "Romario Shepherd",
+    "teamId": "rcb",
+    "role": "All-Rounder",
+    "jerseyNumber": 10,
+    "country": "West Indies",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Romario Shepherd, an official 2026 squad member for RCB.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "rcb-venkatesh-iyer",
+    "teamId": "rcb",
+    "name": "Venkatesh Iyer",
+    "role": "All-Rounder",
+    "jerseyNumber": 25,
+    "country": "India",
+    "age": 31,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "left-hander",
+      "all-rounder",
+      "opener",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "KKR match winner",
+      "India T20 call-up",
+      "Top-order aggressor"
+    ],
+    "voiceIntro": "Hey, I'm Venkatesh Iyer, an official 2026 squad member for RCB.",
+    "stats": {
+      "matches": 58,
+      "runs": 1456,
+      "wickets": 4,
+      "strikeRate": 137.2,
+      "battingAverage": 31,
+      "bestPerformance": "104 vs MI"
+    },
+    "introTag": "the all-round option"
+  },
+  {
+    "id": "rcb-josh-hazlewood",
+    "name": "Josh Hazlewood",
+    "teamId": "rcb",
+    "role": "Bowler",
+    "jerseyNumber": 18,
+    "country": "Australia",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Josh Hazlewood, an official 2026 squad member for RCB.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Bhuvneshwar Kumar",
+    "teamId": "rcb",
+    "role": "Bowler",
+    "jerseyNumber": 15,
+    "country": "India",
+    "age": 36,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "traits": [
+      "pace",
+      "powerplay-specialist",
+      "legend",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "Two Purple Caps",
+      "Swing bowling specialist"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 186,
+      "runs": 309,
+      "wickets": 193,
+      "strikeRate": 47.8,
+      "battingAverage": 12.1,
+      "bestPerformance": "5/19 vs PBKS"
+    },
+    "id": "rcb-bhuvneshwar-kumar",
+    "voiceIntro": "Hey, I'm Bhuvneshwar Kumar, an official 2026 squad member for RCB."
+  },
+  {
+    "id": "rcb-yash-dayal",
+    "name": "Yash Dayal",
+    "teamId": "rcb",
+    "role": "Bowler",
+    "jerseyNumber": 25,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official RCB IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Yash Dayal, an official 2026 squad member for RCB.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Rohit Sharma",
+    "teamId": "mi",
+    "role": "Batsman",
+    "jerseyNumber": 45,
+    "country": "India",
+    "age": 39,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "legend",
+      "india-captain",
+      "opener",
+      "match-winner",
+      "middle-order"
+    ],
+    "bio": "Batter in the official MI IPL 2026 squad.",
+    "achievements": [
+      "Multiple IPL titles as captain",
+      "Former India captain"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 262,
+      "runs": 6768,
+      "wickets": 15,
+      "strikeRate": 131.2,
+      "battingAverage": 29.2,
+      "bestPerformance": "109* vs KKR"
+    },
+    "id": "mi-rohit-sharma",
+    "voiceIntro": "Hey, I'm Rohit Sharma, an official 2026 squad member for MI."
+  },
+  {
+    "name": "Surya Kumar Yadav",
+    "teamId": "mi",
+    "role": "Batsman",
+    "jerseyNumber": 63,
+    "country": "India",
+    "age": 36,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "aggressive",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official MI IPL 2026 squad.",
+    "achievements": [
+      "India T20 captaincy experience",
+      "Explosive stroke maker"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 154,
+      "runs": 3811,
+      "wickets": 0,
+      "strikeRate": 145.4,
+      "battingAverage": 33.4,
+      "bestPerformance": "103* vs GT"
+    },
+    "id": "mi-surya-kumar-yadav",
+    "voiceIntro": "Hey, I'm Surya Kumar Yadav, an official 2026 squad member for MI."
+  },
+  {
+    "name": "Quinton de Kock",
+    "teamId": "mi",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 12,
+    "country": "South Africa",
+    "age": 34,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "wicketkeeper",
+      "left-hander",
+      "aggressive",
+      "opener",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official MI IPL 2026 squad.",
+    "achievements": [
+      "T20 hundred-maker",
+      "Explosive opener"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 110,
+      "runs": 3259,
+      "wickets": 0,
+      "strikeRate": 136.9,
+      "battingAverage": 31.3,
+      "bestPerformance": "140* vs KKR"
+    },
+    "id": "mi-quinton-de-kock",
+    "voiceIntro": "Hey, I'm Quinton de Kock, an official 2026 squad member for MI."
+  },
+  {
+    "id": "mi-n-tilak-varma",
+    "name": "N. Tilak Varma",
+    "teamId": "mi",
+    "role": "Batsman",
+    "jerseyNumber": 8,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official MI IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm N. Tilak Varma, an official 2026 squad member for MI.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Hardik Pandya",
+    "teamId": "mi",
+    "role": "All-Rounder",
+    "jerseyNumber": 33,
+    "country": "India",
+    "age": 33,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "traits": [
+      "aggressive",
+      "all-rounder",
+      "pace",
+      "finisher",
+      "match-winner",
+      "captain"
+    ],
+    "bio": "Current MI captain in the official IPL 2026 squad.",
+    "achievements": [
+      "IPL-winning captain",
+      "India white-ball star"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 141,
+      "runs": 2602,
+      "wickets": 64,
+      "strikeRate": 146.1,
+      "battingAverage": 28.3,
+      "bestPerformance": "91 vs KKR"
+    },
+    "id": "mi-hardik-pandya",
+    "voiceIntro": "Hey, I'm Hardik Pandya, the current captain for MI."
+  },
+  {
+    "id": "mi-naman-dhir",
+    "name": "Naman Dhir",
+    "teamId": "mi",
+    "role": "All-Rounder",
+    "jerseyNumber": 10,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official MI IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Naman Dhir, an official 2026 squad member for MI.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "mi-will-jacks",
+    "name": "Will Jacks",
+    "teamId": "mi",
+    "role": "All-Rounder",
+    "jerseyNumber": 15,
+    "country": "England",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official MI IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Will Jacks, an official 2026 squad member for MI.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "mi-shardul-thakur",
+    "name": "Shardul Thakur",
+    "teamId": "mi",
+    "role": "All-Rounder",
+    "jerseyNumber": 16,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official MI IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Shardul Thakur, an official 2026 squad member for MI.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Trent Boult",
+    "teamId": "mi",
+    "role": "Bowler",
+    "jerseyNumber": 18,
+    "country": "New Zealand",
+    "age": 37,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "pace",
+      "powerplay-specialist",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official MI IPL 2026 squad.",
+    "achievements": [
+      "New-ball specialist",
+      "Multiple IPL finals appearances"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 105,
+      "runs": 76,
+      "wickets": 121,
+      "strikeRate": 47.3,
+      "battingAverage": 10.2,
+      "bestPerformance": "4/18 vs MI"
+    },
+    "id": "mi-trent-boult",
+    "voiceIntro": "Hey, I'm Trent Boult, an official 2026 squad member for MI."
+  },
+  {
+    "id": "mi-deepak-chahar",
+    "name": "Deepak Chahar",
+    "teamId": "mi",
+    "role": "Bowler",
+    "jerseyNumber": 19,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official MI IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Deepak Chahar, an official 2026 squad member for MI.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "mi-keshav-maharaj",
+    "name": "Keshav Maharaj",
+    "teamId": "mi",
+    "role": "Bowler",
+    "jerseyNumber": 23,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official MI IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Keshav Maharaj, an official 2026 squad member for MI.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "teamId": "mi",
+    "role": "Bowler",
+    "jerseyNumber": 93,
+    "country": "India",
+    "age": 32,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "death-bowler",
+      "powerplay-specialist",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official MI IPL 2026 squad.",
+    "achievements": [
+      "India pace ace",
+      "Multiple IPL titles"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 133,
+      "runs": 69,
+      "wickets": 165,
+      "strikeRate": 44.4,
+      "battingAverage": 8.1,
+      "bestPerformance": "5/10 vs KKR"
+    },
+    "id": "mi-jasprit-bumrah",
+    "voiceIntro": "Hey, I'm Jasprit Bumrah, an official 2026 squad member for MI."
+  },
+  {
+    "name": "Shubman Gill",
+    "teamId": "gt",
+    "role": "Batsman",
+    "jerseyNumber": 77,
+    "country": "India",
+    "age": 27,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "anchor",
+      "opener",
+      "youngster",
+      "match-winner",
+      "middle-order",
+      "captain"
+    ],
+    "bio": "Current GT captain in the official IPL 2026 squad.",
+    "achievements": [
+      "Orange Cap winner",
+      "GT captain",
+      "India opener"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 103,
+      "runs": 3471,
+      "wickets": 0,
+      "strikeRate": 136.6,
+      "battingAverage": 37.3,
+      "bestPerformance": "129 vs MI"
+    },
+    "id": "gt-shubman-gill",
+    "voiceIntro": "Hey, I'm Shubman Gill, the current captain for GT."
+  },
+  {
+    "name": "Jos Buttler",
+    "teamId": "gt",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 63,
+    "country": "England",
+    "age": 36,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "foreign",
+      "wicketkeeper",
+      "aggressive",
+      "opener",
+      "match-winner",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Orange Cap winner",
+      "Match-winning opener"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 117,
+      "runs": 3957,
+      "wickets": 0,
+      "strikeRate": 149.9,
+      "battingAverage": 38,
+      "bestPerformance": "124 vs SRH"
+    },
+    "id": "gt-jos-buttler",
+    "voiceIntro": "Hey, I'm Jos Buttler, an official 2026 squad member for GT."
+  },
+  {
+    "id": "gt-glenn-phillips",
+    "name": "Glenn Phillips",
+    "teamId": "gt",
+    "role": "Batsman",
+    "jerseyNumber": 6,
+    "country": "New Zealand",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Batter in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Glenn Phillips, an official 2026 squad member for GT.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Sai Sudharsan",
+    "teamId": "gt",
+    "role": "Batsman",
+    "jerseyNumber": 66,
+    "country": "India",
+    "age": 24,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "left-hander",
+      "youngster",
+      "anchor",
+      "opener",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Emerging batting star",
+      "Consistent top-order scorer"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 25,
+      "runs": 1034,
+      "wickets": 0,
+      "strikeRate": 141.2,
+      "battingAverage": 47,
+      "bestPerformance": "103 vs CSK"
+    },
+    "id": "gt-sai-sudharsan",
+    "voiceIntro": "Hey, I'm Sai Sudharsan, an official 2026 squad member for GT."
+  },
+  {
+    "id": "gt-washington-sundar",
+    "name": "Washington Sundar",
+    "teamId": "gt",
+    "role": "All-Rounder",
+    "jerseyNumber": 9,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Washington Sundar, an official 2026 squad member for GT.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "gt-sai-kishore",
+    "teamId": "gt",
+    "name": "Sai Kishore",
+    "role": "All-Rounder",
+    "jerseyNumber": 99,
+    "country": "India",
+    "age": 30,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "traits": [
+      "left-hander",
+      "spin",
+      "match-winner",
+      "all-rounder"
+    ],
+    "bio": "All-rounder in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Domestic spin specialist",
+      "GT middle-over option"
+    ],
+    "voiceIntro": "Hey, I'm Sai Kishore, an official 2026 squad member for GT.",
+    "stats": {
+      "matches": 18,
+      "runs": 15,
+      "wickets": 21,
+      "strikeRate": 19.8,
+      "battingAverage": 9.5,
+      "bestPerformance": "4/33 vs PBKS"
+    },
+    "introTag": "the all-round option"
+  },
+  {
+    "id": "gt-jason-holder",
+    "name": "Jason Holder",
+    "teamId": "gt",
+    "role": "All-Rounder",
+    "jerseyNumber": 13,
+    "country": "West Indies",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Jason Holder, an official 2026 squad member for GT.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Rahul Tewatia",
+    "teamId": "gt",
+    "role": "All-Rounder",
+    "jerseyNumber": 7,
+    "country": "India",
+    "age": 33,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "left-hander",
+      "finisher",
+      "all-rounder",
+      "spin",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Famous chase finisher",
+      "Impact all-round option"
+    ],
+    "introTag": "the all-round option",
+    "stats": {
+      "matches": 95,
+      "runs": 1013,
+      "wickets": 32,
+      "strikeRate": 142.9,
+      "battingAverage": 27.4,
+      "bestPerformance": "40* vs PBKS"
+    },
+    "id": "gt-rahul-tewatia",
+    "voiceIntro": "Hey, I'm Rahul Tewatia, an official 2026 squad member for GT."
+  },
+  {
+    "id": "gt-shahrukh-khan",
+    "name": "Shahrukh Khan",
+    "teamId": "gt",
+    "role": "All-Rounder",
+    "jerseyNumber": 15,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Shahrukh Khan, an official 2026 squad member for GT.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Kagiso Rabada",
+    "teamId": "gt",
+    "role": "Bowler",
+    "jerseyNumber": 25,
+    "country": "South Africa",
+    "age": 31,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "foreign",
+      "pace",
+      "death-bowler",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Purple Cap winner",
+      "South Africa fast bowler"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 80,
+      "runs": 205,
+      "wickets": 117,
+      "strikeRate": 40.1,
+      "battingAverage": 11.8,
+      "bestPerformance": "4/21 vs SRH"
+    },
+    "id": "gt-kagiso-rabada",
+    "voiceIntro": "Hey, I'm Kagiso Rabada, an official 2026 squad member for GT."
+  },
+  {
+    "name": "Mohammed Siraj",
+    "teamId": "gt",
+    "role": "Bowler",
+    "jerseyNumber": 73,
+    "country": "India",
+    "age": 32,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "powerplay-specialist",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official GT IPL 2026 squad.",
+    "achievements": [
+      "India pace spearhead",
+      "Powerplay wicket-taker"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 95,
+      "runs": 104,
+      "wickets": 96,
+      "strikeRate": 58.2,
+      "battingAverage": 7.4,
+      "bestPerformance": "4/21 vs KKR"
+    },
+    "id": "gt-mohammed-siraj",
+    "voiceIntro": "Hey, I'm Mohammed Siraj, an official 2026 squad member for GT."
+  },
+  {
+    "id": "gt-prasidh-krishna",
+    "name": "Prasidh Krishna",
+    "teamId": "gt",
+    "role": "Bowler",
+    "jerseyNumber": 18,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Prasidh Krishna, an official 2026 squad member for GT.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "gt-ishant-sharma",
+    "teamId": "gt",
+    "name": "Ishant Sharma",
+    "role": "Bowler",
+    "jerseyNumber": 97,
+    "country": "India",
+    "age": 38,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "traits": [
+      "pace",
+      "powerplay-specialist",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official GT IPL 2026 squad.",
+    "achievements": [
+      "India fast bowler",
+      "DC pace option",
+      "Powerplay specialist"
+    ],
+    "voiceIntro": "Hey, I'm Ishant Sharma, an official 2026 squad member for GT.",
+    "stats": {
+      "matches": 110,
+      "runs": 92,
+      "wickets": 96,
+      "strikeRate": 22.1,
+      "battingAverage": 9.4,
+      "bestPerformance": "5/12 vs KTK"
+    },
+    "introTag": "the bowling option"
+  },
+  {
+    "name": "Rashid Khan",
+    "teamId": "gt",
+    "role": "Bowler",
+    "jerseyNumber": 19,
+    "country": "Afghanistan",
+    "age": 28,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "foreign",
+      "spin",
+      "mystery-spinner",
+      "match-winner",
+      "finisher",
+      "pace"
+    ],
+    "bio": "Bowler in the official GT IPL 2026 squad.",
+    "achievements": [
+      "Global T20 superstar",
+      "IPL title winner"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 121,
+      "runs": 545,
+      "wickets": 152,
+      "strikeRate": 169.8,
+      "battingAverage": 14.7,
+      "bestPerformance": "4/24 vs SRH"
+    },
+    "id": "gt-rashid-khan",
+    "voiceIntro": "Hey, I'm Rashid Khan, an official 2026 squad member for GT."
+  },
+  {
+    "id": "kkr-ajinkya-rahane",
+    "teamId": "kkr",
+    "name": "Ajinkya Rahane",
+    "role": "Batsman",
+    "jerseyNumber": 3,
+    "country": "India",
+    "age": 38,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "anchor",
+      "opener",
+      "match-winner",
+      "middle-order",
+      "captain"
+    ],
+    "bio": "Current KKR captain in the official IPL 2026 squad.",
+    "achievements": [
+      "Consistent IPL opener",
+      "India Test captain",
+      "Elegant stroke maker"
+    ],
+    "voiceIntro": "Hey, I'm Ajinkya Rahane, the current captain for KKR.",
+    "stats": {
+      "matches": 185,
+      "runs": 4642,
+      "wickets": 1,
+      "strikeRate": 123.4,
+      "battingAverage": 30.9,
+      "bestPerformance": "105* vs DC"
+    },
+    "introTag": "the current captain"
+  },
+  {
+    "name": "Rinku Singh",
+    "teamId": "kkr",
+    "role": "Batsman",
+    "jerseyNumber": 35,
+    "country": "India",
+    "age": 29,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "left-hander",
+      "finisher",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Legendary chase cameo",
+      "India T20 finisher"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 56,
+      "runs": 1025,
+      "wickets": 0,
+      "strikeRate": 148.9,
+      "battingAverage": 33.1,
+      "bestPerformance": "48* vs GT"
+    },
+    "id": "kkr-rinku-singh",
+    "voiceIntro": "Hey, I'm Rinku Singh, an official 2026 squad member for KKR."
+  },
+  {
+    "id": "kkr-manish-pandey",
+    "name": "Manish Pandey",
+    "teamId": "kkr",
+    "role": "Batsman",
+    "jerseyNumber": 4,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Manish Pandey, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "kkr-finn-allen",
+    "name": "Finn Allen",
+    "teamId": "kkr",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 5,
+    "country": "New Zealand",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "voiceIntro": "Hey, I'm Finn Allen, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "kkr-rahul-tripathi",
+    "name": "Rahul Tripathi",
+    "teamId": "kkr",
+    "role": "Batsman",
+    "jerseyNumber": 7,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Rahul Tripathi, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "kkr-rovman-powell",
+    "name": "Rovman Powell",
+    "teamId": "kkr",
+    "role": "Batsman",
+    "jerseyNumber": 9,
+    "country": "West Indies",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Batter in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Rovman Powell, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "kkr-cameron-green",
+    "name": "Cameron Green",
+    "teamId": "kkr",
+    "role": "All-Rounder",
+    "jerseyNumber": 11,
+    "country": "Australia",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Cameron Green, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "kkr-rachin-ravindra",
+    "name": "Rachin Ravindra",
+    "teamId": "kkr",
+    "role": "All-Rounder",
+    "jerseyNumber": 14,
+    "country": "New Zealand",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Rachin Ravindra, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "kkr-ramandeep-singh",
+    "name": "Ramandeep Singh",
+    "teamId": "kkr",
+    "role": "All-Rounder",
+    "jerseyNumber": 15,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Ramandeep Singh, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Sunil Narine",
+    "teamId": "kkr",
+    "role": "All-Rounder",
+    "jerseyNumber": 74,
+    "country": "West Indies",
+    "age": 38,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "mystery-spinner",
+      "spin",
+      "all-rounder",
+      "opener",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Multiple IPL titles",
+      "MVP winner"
+    ],
+    "introTag": "the all-round option",
+    "stats": {
+      "matches": 180,
+      "runs": 1788,
+      "wickets": 187,
+      "strikeRate": 165.1,
+      "battingAverage": 18.6,
+      "bestPerformance": "109 vs RR"
+    },
+    "id": "kkr-sunil-narine",
+    "voiceIntro": "Hey, I'm Sunil Narine, an official 2026 squad member for KKR."
+  },
+  {
+    "name": "Matheesha Pathirana",
+    "teamId": "kkr",
+    "role": "Bowler",
+    "jerseyNumber": 81,
+    "country": "Sri Lanka",
+    "age": 24,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "foreign",
+      "pace",
+      "death-bowler",
+      "youngster",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Death overs specialist",
+      "High-impact wicket taker"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 20,
+      "runs": 12,
+      "wickets": 34,
+      "strikeRate": 60,
+      "battingAverage": 6,
+      "bestPerformance": "4/28 vs MI"
+    },
+    "id": "kkr-matheesha-pathirana",
+    "voiceIntro": "Hey, I'm Matheesha Pathirana, an official 2026 squad member for KKR."
+  },
+  {
+    "id": "kkr-umran-malik",
+    "name": "Umran Malik",
+    "teamId": "kkr",
+    "role": "Bowler",
+    "jerseyNumber": 24,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Umran Malik, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "kkr-varun-chakaravarthy",
+    "name": "Varun Chakaravarthy",
+    "teamId": "kkr",
+    "role": "Bowler",
+    "jerseyNumber": 25,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official KKR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Varun Chakaravarthy, an official 2026 squad member for KKR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Ishan Kishan",
+    "teamId": "srh",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 23,
+    "country": "India",
+    "age": 28,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "left-hander",
+      "aggressive",
+      "opener",
+      "youngster",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "India wicketkeeper-batter",
+      "Powerplay striker"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 119,
+      "runs": 2964,
+      "wickets": 0,
+      "strikeRate": 135.3,
+      "battingAverage": 29.6,
+      "bestPerformance": "99 vs RCB"
+    },
+    "id": "srh-ishan-kishan",
+    "voiceIntro": "Hey, I'm Ishan Kishan, an official 2026 squad member for SRH."
+  },
+  {
+    "name": "Heinrich Klaasen",
+    "teamId": "srh",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 45,
+    "country": "South Africa",
+    "age": 35,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "wicketkeeper",
+      "aggressive",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Wicketkeeper-batter in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "Elite middle-over destroyer",
+      "South Africa wicketkeeper"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 35,
+      "runs": 1162,
+      "wickets": 0,
+      "strikeRate": 171.2,
+      "battingAverage": 39.8,
+      "bestPerformance": "104 vs RCB"
+    },
+    "id": "srh-heinrich-klaasen",
+    "voiceIntro": "Hey, I'm Heinrich Klaasen, an official 2026 squad member for SRH."
+  },
+  {
+    "name": "Travis Head",
+    "teamId": "srh",
+    "role": "Batsman",
+    "jerseyNumber": 62,
+    "country": "Australia",
+    "age": 33,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "aggressive",
+      "opener",
+      "match-winner",
+      "middle-order"
+    ],
+    "bio": "Batter in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "World Cup final hero",
+      "High-tempo opener"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 31,
+      "runs": 962,
+      "wickets": 2,
+      "strikeRate": 172.7,
+      "battingAverage": 36.9,
+      "bestPerformance": "102 vs RCB"
+    },
+    "id": "srh-travis-head",
+    "voiceIntro": "Hey, I'm Travis Head, an official 2026 squad member for SRH."
+  },
+  {
+    "id": "srh-harshal-patel",
+    "name": "Harshal Patel",
+    "teamId": "srh",
+    "role": "All-Rounder",
+    "jerseyNumber": 7,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Harshal Patel, an official 2026 squad member for SRH.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "srh-kamindu-mendis",
+    "name": "Kamindu Mendis",
+    "teamId": "srh",
+    "role": "All-Rounder",
+    "jerseyNumber": 8,
+    "country": "Sri Lanka",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Kamindu Mendis, an official 2026 squad member for SRH.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Liam Livingstone",
+    "teamId": "srh",
+    "role": "All-Rounder",
+    "jerseyNumber": 23,
+    "country": "England",
+    "age": 33,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "foreign",
+      "aggressive",
+      "all-rounder",
+      "spin",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "Massive six-hitter",
+      "White-ball match winner"
+    ],
+    "introTag": "the all-round option",
+    "stats": {
+      "matches": 39,
+      "runs": 939,
+      "wickets": 11,
+      "strikeRate": 167.4,
+      "battingAverage": 28.4,
+      "bestPerformance": "94 vs DC"
+    },
+    "id": "srh-liam-livingstone",
+    "voiceIntro": "Hey, I'm Liam Livingstone, an official 2026 squad member for SRH."
+  },
+  {
+    "name": "Abhishek Sharma",
+    "teamId": "srh",
+    "role": "All-Rounder",
+    "jerseyNumber": 4,
+    "country": "India",
+    "age": 26,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "traits": [
+      "left-hander",
+      "aggressive",
+      "all-rounder",
+      "spin",
+      "youngster",
+      "opener",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "India T20 opener",
+      "Explosive powerplay specialist"
+    ],
+    "introTag": "the all-round option",
+    "stats": {
+      "matches": 68,
+      "runs": 1598,
+      "wickets": 11,
+      "strikeRate": 157.8,
+      "battingAverage": 28.5,
+      "bestPerformance": "75 vs MI"
+    },
+    "id": "srh-abhishek-sharma",
+    "voiceIntro": "Hey, I'm Abhishek Sharma, an official 2026 squad member for SRH."
+  },
+  {
+    "id": "srh-nitish-kumar-reddy",
+    "name": "Nitish Kumar Reddy",
+    "teamId": "srh",
+    "role": "All-Rounder",
+    "jerseyNumber": 15,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Nitish Kumar Reddy, an official 2026 squad member for SRH.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Pat Cummins",
+    "teamId": "srh",
+    "role": "Bowler",
+    "jerseyNumber": 30,
+    "country": "Australia",
+    "age": 33,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "foreign",
+      "all-rounder",
+      "pace",
+      "match-winner",
+      "captain"
+    ],
+    "bio": "Current SRH captain in the official IPL 2026 squad.",
+    "achievements": [
+      "World Cup-winning captain",
+      "SRH captain"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 60,
+      "runs": 515,
+      "wickets": 66,
+      "strikeRate": 151.1,
+      "battingAverage": 18.4,
+      "bestPerformance": "3/26 and 35* vs RR"
+    },
+    "id": "srh-pat-cummins",
+    "voiceIntro": "Hey, I'm Pat Cummins, the current captain for SRH."
+  },
+  {
+    "id": "srh-jaydev-unadkat",
+    "name": "Jaydev Unadkat",
+    "teamId": "srh",
+    "role": "Bowler",
+    "jerseyNumber": 18,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Jaydev Unadkat, an official 2026 squad member for SRH.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "srh-dilshan-madushanka",
+    "name": "Dilshan Madushanka",
+    "teamId": "srh",
+    "role": "Bowler",
+    "jerseyNumber": 24,
+    "country": "Sri Lanka",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Dilshan Madushanka, an official 2026 squad member for SRH.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "srh-gerald-coetzee",
+    "name": "Gerald Coetzee",
+    "teamId": "srh",
+    "role": "Bowler",
+    "jerseyNumber": 25,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official SRH IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Gerald Coetzee, an official 2026 squad member for SRH.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "rr-shubham-dubey",
+    "name": "Shubham Dubey",
+    "teamId": "rr",
+    "role": "Batsman",
+    "jerseyNumber": 1,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Shubham Dubey, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "rr-vaibhav-sooryavanshi",
+    "name": "Vaibhav Sooryavanshi",
+    "teamId": "rr",
+    "role": "Batsman",
+    "jerseyNumber": 2,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Vaibhav Sooryavanshi, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "rr-shimron-hetmyer",
+    "name": "Shimron Hetmyer",
+    "teamId": "rr",
+    "role": "Batsman",
+    "jerseyNumber": 7,
+    "country": "West Indies",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Batter in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Shimron Hetmyer, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Yashasvi Jaiswal",
+    "teamId": "rr",
+    "role": "Batsman",
+    "jerseyNumber": 64,
+    "country": "India",
+    "age": 24,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "left-hander",
+      "aggressive",
+      "youngster",
+      "opener",
+      "match-winner",
+      "middle-order"
+    ],
+    "bio": "Batter in the official RR IPL 2026 squad.",
+    "achievements": [
+      "India opener",
+      "Record-breaking powerplay scorer"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 53,
+      "runs": 1685,
+      "wickets": 0,
+      "strikeRate": 149.8,
+      "battingAverage": 32.4,
+      "bestPerformance": "124 vs MI"
+    },
+    "id": "rr-yashasvi-jaiswal",
+    "voiceIntro": "Hey, I'm Yashasvi Jaiswal, an official 2026 squad member for RR."
+  },
+  {
+    "id": "rr-dhruv-jurel",
+    "name": "Dhruv Jurel",
+    "teamId": "rr",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 9,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "voiceIntro": "Hey, I'm Dhruv Jurel, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Riyan Parag",
+    "teamId": "rr",
+    "role": "All-Rounder",
+    "jerseyNumber": 3,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "youngster",
+      "aggressive",
+      "all-rounder",
+      "middle-order",
+      "captain"
+    ],
+    "bio": "Current RR captain in the official IPL 2026 squad.",
+    "achievements": [
+      "Breakout IPL season",
+      "Flexible middle-order role"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 70,
+      "runs": 1326,
+      "wickets": 4,
+      "strikeRate": 143.8,
+      "battingAverage": 28.2,
+      "bestPerformance": "84* vs DC"
+    },
+    "id": "rr-riyan-parag",
+    "voiceIntro": "Hey, I'm Riyan Parag, the current captain for RR."
+  },
+  {
+    "name": "Ravindra Jadeja",
+    "teamId": "rr",
+    "role": "All-Rounder",
+    "jerseyNumber": 8,
+    "country": "India",
+    "age": 37,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "traits": [
+      "all-rounder",
+      "left-hander",
+      "spin",
+      "match-winner",
+      "legend"
+    ],
+    "bio": "All-rounder in the official RR IPL 2026 squad.",
+    "achievements": [
+      "IPL title winner",
+      "India all-format star",
+      "Elite fielder"
+    ],
+    "introTag": "the all-round option",
+    "stats": {
+      "matches": 245,
+      "runs": 2959,
+      "wickets": 160,
+      "strikeRate": 129.8,
+      "battingAverage": 27.3,
+      "bestPerformance": "62* and 3/20 vs RCB"
+    },
+    "id": "rr-ravindra-jadeja",
+    "voiceIntro": "Hey, I'm Ravindra Jadeja, an official 2026 squad member for RR."
+  },
+  {
+    "id": "rr-dasun-shanaka",
+    "name": "Dasun Shanaka",
+    "teamId": "rr",
+    "role": "All-Rounder",
+    "jerseyNumber": 13,
+    "country": "Sri Lanka",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Dasun Shanaka, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "rr-jofra-archer",
+    "teamId": "rr",
+    "name": "Jofra Archer",
+    "role": "Bowler",
+    "jerseyNumber": 22,
+    "country": "England",
+    "age": 31,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "foreign",
+      "pace",
+      "death-bowler",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official RR IPL 2026 squad.",
+    "achievements": [
+      "World Cup winner",
+      "RR strike bowler",
+      "Death-overs specialist"
+    ],
+    "voiceIntro": "Hey, I'm Jofra Archer, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 47,
+      "runs": 195,
+      "wickets": 48,
+      "strikeRate": 20.5,
+      "battingAverage": 11.4,
+      "bestPerformance": "3/15 vs CSK"
+    },
+    "introTag": "the bowling option"
+  },
+  {
+    "id": "rr-tushar-deshpande",
+    "name": "Tushar Deshpande",
+    "teamId": "rr",
+    "role": "Bowler",
+    "jerseyNumber": 15,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Tushar Deshpande, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Ravi Bishnoi",
+    "teamId": "rr",
+    "role": "Bowler",
+    "jerseyNumber": 56,
+    "country": "India",
+    "age": 26,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "spin",
+      "youngster",
+      "match-winner",
+      "pace"
+    ],
+    "bio": "Bowler in the official RR IPL 2026 squad.",
+    "achievements": [
+      "India leg-spinner",
+      "Middle-over wicket taker"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 66,
+      "runs": 17,
+      "wickets": 70,
+      "strikeRate": 48.8,
+      "battingAverage": 9.4,
+      "bestPerformance": "3/24 vs PBKS"
+    },
+    "id": "rr-ravi-bishnoi",
+    "voiceIntro": "Hey, I'm Ravi Bishnoi, an official 2026 squad member for RR."
+  },
+  {
+    "id": "rr-adam-milne",
+    "name": "Adam Milne",
+    "teamId": "rr",
+    "role": "Bowler",
+    "jerseyNumber": 22,
+    "country": "New Zealand",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Adam Milne, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "rr-sandeep-sharma",
+    "name": "Sandeep Sharma",
+    "teamId": "rr",
+    "role": "Bowler",
+    "jerseyNumber": 24,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Sandeep Sharma, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "rr-nandre-burger",
+    "name": "Nandre Burger",
+    "teamId": "rr",
+    "role": "Bowler",
+    "jerseyNumber": 25,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official RR IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Nandre Burger, an official 2026 squad member for RR.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Shreyas Iyer",
+    "teamId": "pbks",
+    "role": "Batsman",
+    "jerseyNumber": 41,
+    "country": "India",
+    "age": 32,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "anchor",
+      "middle-order",
+      "match-winner",
+      "captain"
+    ],
+    "bio": "Current PBKS captain in the official IPL 2026 squad.",
+    "achievements": [
+      "IPL title-winning captain",
+      "India batter"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 131,
+      "runs": 3386,
+      "wickets": 0,
+      "strikeRate": 129.6,
+      "battingAverage": 32.9,
+      "bestPerformance": "96 vs DC"
+    },
+    "id": "pbks-shreyas-iyer",
+    "voiceIntro": "Hey, I'm Shreyas Iyer, the current captain for PBKS."
+  },
+  {
+    "id": "pbks-nehal-wadhera",
+    "name": "Nehal Wadhera",
+    "teamId": "pbks",
+    "role": "Batsman",
+    "jerseyNumber": 2,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Nehal Wadhera, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "pbks-vishnu-vinod",
+    "name": "Vishnu Vinod",
+    "teamId": "pbks",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 3,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "voiceIntro": "Hey, I'm Vishnu Vinod, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "pbks-prabhsimran-singh",
+    "name": "Prabhsimran Singh",
+    "teamId": "pbks",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 6,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "voiceIntro": "Hey, I'm Prabhsimran Singh, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "pbks-shashank-singh",
+    "teamId": "pbks",
+    "name": "Shashank Singh",
+    "role": "Batsman",
+    "jerseyNumber": 91,
+    "country": "India",
+    "age": 35,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "aggressive",
+      "finisher",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Breakout finishing season",
+      "PBKS middle-order option"
+    ],
+    "voiceIntro": "Hey, I'm Shashank Singh, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 28,
+      "runs": 520,
+      "wickets": 0,
+      "strikeRate": 149.4,
+      "battingAverage": 28,
+      "bestPerformance": "68* vs GT"
+    },
+    "introTag": "the batting option"
+  },
+  {
+    "name": "Marcus Stoinis",
+    "teamId": "pbks",
+    "role": "All-Rounder",
+    "jerseyNumber": 17,
+    "country": "Australia",
+    "age": 37,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "traits": [
+      "foreign",
+      "aggressive",
+      "all-rounder",
+      "pace",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Explosive middle-order hitter",
+      "Utility seam bowler"
+    ],
+    "introTag": "the all-round option",
+    "stats": {
+      "matches": 108,
+      "runs": 2079,
+      "wickets": 43,
+      "strikeRate": 145.8,
+      "battingAverage": 28.1,
+      "bestPerformance": "124* vs CSK"
+    },
+    "id": "pbks-marcus-stoinis",
+    "voiceIntro": "Hey, I'm Marcus Stoinis, an official 2026 squad member for PBKS."
+  },
+  {
+    "id": "pbks-harpreet-brar",
+    "name": "Harpreet Brar",
+    "teamId": "pbks",
+    "role": "All-Rounder",
+    "jerseyNumber": 9,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Harpreet Brar, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "pbks-marco-jansen",
+    "name": "Marco Jansen",
+    "teamId": "pbks",
+    "role": "All-Rounder",
+    "jerseyNumber": 10,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Marco Jansen, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "pbks-azmatullah-omarzai",
+    "name": "Azmatullah Omarzai",
+    "teamId": "pbks",
+    "role": "All-Rounder",
+    "jerseyNumber": 11,
+    "country": "Afghanistan",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "foreign"
+    ],
+    "bio": "All-rounder in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Azmatullah Omarzai, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "pbks-priyansh-arya",
+    "name": "Priyansh Arya",
+    "teamId": "pbks",
+    "role": "All-Rounder",
+    "jerseyNumber": 12,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Priyansh Arya, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Arshdeep Singh",
+    "teamId": "pbks",
+    "role": "Bowler",
+    "jerseyNumber": 2,
+    "country": "India",
+    "age": 27,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "traits": [
+      "left-hander",
+      "pace",
+      "death-bowler",
+      "youngster",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "India T20 bowler",
+      "PBKS strike bowler"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 65,
+      "runs": 29,
+      "wickets": 76,
+      "strikeRate": 49.1,
+      "battingAverage": 10.1,
+      "bestPerformance": "4/29 vs MI"
+    },
+    "id": "pbks-arshdeep-singh",
+    "voiceIntro": "Hey, I'm Arshdeep Singh, an official 2026 squad member for PBKS."
+  },
+  {
+    "name": "Yuzvendra Chahal",
+    "teamId": "pbks",
+    "role": "Bowler",
+    "jerseyNumber": 3,
+    "country": "India",
+    "age": 36,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "traits": [
+      "spin",
+      "match-winner",
+      "legend",
+      "pace"
+    ],
+    "bio": "Bowler in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Purple Cap winner",
+      "Leading IPL wicket taker"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 160,
+      "runs": 37,
+      "wickets": 205,
+      "strikeRate": 41.6,
+      "battingAverage": 8.5,
+      "bestPerformance": "5/40 vs KKR"
+    },
+    "id": "pbks-yuzvendra-chahal",
+    "voiceIntro": "Hey, I'm Yuzvendra Chahal, an official 2026 squad member for PBKS."
+  },
+  {
+    "id": "pbks-yash-thakur",
+    "name": "Yash Thakur",
+    "teamId": "pbks",
+    "role": "Bowler",
+    "jerseyNumber": 21,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Yash Thakur, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "pbks-lockie-ferguson",
+    "name": "Lockie Ferguson",
+    "teamId": "pbks",
+    "role": "Bowler",
+    "jerseyNumber": 25,
+    "country": "New Zealand",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official PBKS IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Lockie Ferguson, an official 2026 squad member for PBKS.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Rishabh Pant",
+    "teamId": "lsg",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 17,
+    "country": "India",
+    "age": 29,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "wicketkeeper",
+      "left-hander",
+      "aggressive",
+      "middle-order",
+      "match-winner",
+      "captain"
+    ],
+    "bio": "Current LSG captain in the official IPL 2026 squad.",
+    "achievements": [
+      "DC captain",
+      "India match winner"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 116,
+      "runs": 3463,
+      "wickets": 0,
+      "strikeRate": 148.2,
+      "battingAverage": 35,
+      "bestPerformance": "128* vs SRH"
+    },
+    "id": "lsg-rishabh-pant",
+    "voiceIntro": "Hey, I'm Rishabh Pant, the current captain for LSG."
+  },
+  {
+    "id": "lsg-aiden-markram",
+    "name": "Aiden Markram",
+    "teamId": "lsg",
+    "role": "Batsman",
+    "jerseyNumber": 2,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Batter in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Aiden Markram, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "lsg-matthew-breetzke",
+    "name": "Matthew Breetzke",
+    "teamId": "lsg",
+    "role": "Batsman",
+    "jerseyNumber": 4,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Batter in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Matthew Breetzke, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "lsg-josh-inglis",
+    "name": "Josh Inglis",
+    "teamId": "lsg",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 7,
+    "country": "Australia",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "voiceIntro": "Hey, I'm Josh Inglis, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Nicholas Pooran",
+    "teamId": "lsg",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 29,
+    "country": "West Indies",
+    "age": 31,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "wicketkeeper",
+      "left-hander",
+      "aggressive",
+      "finisher",
+      "match-winner",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "T20 finisher",
+      "Six-hitting specialist"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 79,
+      "runs": 1901,
+      "wickets": 0,
+      "strikeRate": 164.3,
+      "battingAverage": 28.8,
+      "bestPerformance": "87* vs KKR"
+    },
+    "id": "lsg-nicholas-pooran",
+    "voiceIntro": "Hey, I'm Nicholas Pooran, an official 2026 squad member for LSG."
+  },
+  {
+    "name": "Mitchell Marsh",
+    "teamId": "lsg",
+    "role": "All-Rounder",
+    "jerseyNumber": 8,
+    "country": "Australia",
+    "age": 35,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "traits": [
+      "foreign",
+      "aggressive",
+      "all-rounder",
+      "pace",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "World Cup winner",
+      "Explosive all-round package"
+    ],
+    "introTag": "the all-round option",
+    "stats": {
+      "matches": 45,
+      "runs": 853,
+      "wickets": 37,
+      "strikeRate": 136.8,
+      "battingAverage": 24.4,
+      "bestPerformance": "89 vs KKR"
+    },
+    "id": "lsg-mitchell-marsh",
+    "voiceIntro": "Hey, I'm Mitchell Marsh, an official 2026 squad member for LSG."
+  },
+  {
+    "id": "lsg-abdul-samad",
+    "name": "Abdul Samad",
+    "teamId": "lsg",
+    "role": "All-Rounder",
+    "jerseyNumber": 10,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Abdul Samad, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "lsg-shahbaz-ahamad",
+    "name": "Shahbaz Ahamad",
+    "teamId": "lsg",
+    "role": "All-Rounder",
+    "jerseyNumber": 11,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Shahbaz Ahamad, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "lsg-ayush-badoni",
+    "teamId": "lsg",
+    "name": "Ayush Badoni",
+    "role": "All-Rounder",
+    "jerseyNumber": 11,
+    "country": "India",
+    "age": 27,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "youngster",
+      "middle-order",
+      "finisher",
+      "match-winner",
+      "all-rounder"
+    ],
+    "bio": "All-rounder in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Young LSG batter",
+      "Finishing option",
+      "Pressure player"
+    ],
+    "voiceIntro": "Hey, I'm Ayush Badoni, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 46,
+      "runs": 1045,
+      "wickets": 0,
+      "strikeRate": 135.4,
+      "battingAverage": 26,
+      "bestPerformance": "55* vs CSK"
+    },
+    "introTag": "the all-round option"
+  },
+  {
+    "id": "lsg-mohammad-shami",
+    "name": "Mohammad Shami",
+    "teamId": "lsg",
+    "role": "Bowler",
+    "jerseyNumber": 14,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Mohammad Shami, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "lsg-avesh-khan",
+    "name": "Avesh Khan",
+    "teamId": "lsg",
+    "role": "Bowler",
+    "jerseyNumber": 15,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Avesh Khan, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "lsg-anrich-nortje",
+    "name": "Anrich Nortje",
+    "teamId": "lsg",
+    "role": "Bowler",
+    "jerseyNumber": 21,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Anrich Nortje, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Mayank Yadav",
+    "teamId": "lsg",
+    "role": "Bowler",
+    "jerseyNumber": 18,
+    "country": "India",
+    "age": 24,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "youngster",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Emerging pace sensation",
+      "High-velocity strike bowler"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 6,
+      "runs": 4,
+      "wickets": 9,
+      "strikeRate": 33.3,
+      "battingAverage": 4,
+      "bestPerformance": "3/14 vs RCB"
+    },
+    "id": "lsg-mayank-yadav",
+    "voiceIntro": "Hey, I'm Mayank Yadav, an official 2026 squad member for LSG."
+  },
+  {
+    "id": "lsg-mohsin-khan",
+    "teamId": "lsg",
+    "name": "Mohsin Khan",
+    "role": "Bowler",
+    "jerseyNumber": 47,
+    "country": "India",
+    "age": 27,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "traits": [
+      "left-hander",
+      "pace",
+      "powerplay-specialist",
+      "youngster",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official LSG IPL 2026 squad.",
+    "achievements": [
+      "Emerging pace bowler",
+      "LSG new-ball option"
+    ],
+    "voiceIntro": "Hey, I'm Mohsin Khan, an official 2026 squad member for LSG.",
+    "stats": {
+      "matches": 23,
+      "runs": 14,
+      "wickets": 31,
+      "strikeRate": 18.2,
+      "battingAverage": 8.7,
+      "bestPerformance": "4/16 vs MI"
+    },
+    "introTag": "the bowling option"
+  },
+  {
+    "name": "KL Rahul",
+    "teamId": "dc",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 1,
+    "country": "India",
+    "age": 34,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "wicketkeeper",
+      "anchor",
+      "opener",
+      "match-winner",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official DC IPL 2026 squad.",
+    "achievements": [
+      "LSG captain",
+      "Consistent IPL run-scorer"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "stats": {
+      "matches": 132,
+      "runs": 4837,
+      "wickets": 0,
+      "strikeRate": 134.5,
+      "battingAverage": 45.2,
+      "bestPerformance": "132* vs RCB"
+    },
+    "id": "dc-kl-rahul",
+    "voiceIntro": "Hey, I'm KL Rahul, an official 2026 squad member for DC."
+  },
+  {
+    "id": "dc-karun-nair",
+    "name": "Karun Nair",
+    "teamId": "dc",
+    "role": "Batsman",
+    "jerseyNumber": 2,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Karun Nair, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "David Miller",
+    "teamId": "dc",
+    "role": "Batsman",
+    "jerseyNumber": 10,
+    "country": "South Africa",
+    "age": 37,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "left-hander",
+      "finisher",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Global finisher",
+      "IPL title winner"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 132,
+      "runs": 2930,
+      "wickets": 0,
+      "strikeRate": 139.5,
+      "battingAverage": 35.7,
+      "bestPerformance": "101* vs RCB"
+    },
+    "id": "dc-david-miller",
+    "voiceIntro": "Hey, I'm David Miller, an official 2026 squad member for DC."
+  },
+  {
+    "id": "dc-pathum-nissanka",
+    "name": "Pathum Nissanka",
+    "teamId": "dc",
+    "role": "Batsman",
+    "jerseyNumber": 4,
+    "country": "Sri Lanka",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "foreign",
+      "middle-order"
+    ],
+    "bio": "Batter in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the batting option",
+    "voiceIntro": "Hey, I'm Pathum Nissanka, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Prithvi Shaw",
+    "teamId": "dc",
+    "role": "Batsman",
+    "jerseyNumber": 100,
+    "country": "India",
+    "age": 27,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "aggressive",
+      "youngster",
+      "opener",
+      "middle-order",
+      "match-winner"
+    ],
+    "bio": "Batter in the official DC IPL 2026 squad.",
+    "achievements": [
+      "High-tempo opener",
+      "India under-19 champion"
+    ],
+    "introTag": "the batting option",
+    "stats": {
+      "matches": 79,
+      "runs": 1892,
+      "wickets": 0,
+      "strikeRate": 147.3,
+      "battingAverage": 24.6,
+      "bestPerformance": "99 vs KKR"
+    },
+    "id": "dc-prithvi-shaw",
+    "voiceIntro": "Hey, I'm Prithvi Shaw, an official 2026 squad member for DC."
+  },
+  {
+    "id": "dc-abishek-porel",
+    "name": "Abishek Porel",
+    "teamId": "dc",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 7,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "middle-order"
+    ],
+    "bio": "Wicketkeeper-batter in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "voiceIntro": "Hey, I'm Abishek Porel, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "dc-tristan-stubbs",
+    "name": "Tristan Stubbs",
+    "teamId": "dc",
+    "role": "Wicketkeeper-Batsman",
+    "jerseyNumber": 8,
+    "country": "South Africa",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "traits": [
+      "wicketkeeper",
+      "middle-order",
+      "foreign"
+    ],
+    "bio": "Wicketkeeper-batter in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the wicketkeeper-batter",
+    "voiceIntro": "Hey, I'm Tristan Stubbs, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Axar Patel",
+    "teamId": "dc",
+    "role": "All-Rounder",
+    "jerseyNumber": 20,
+    "country": "India",
+    "age": 32,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "traits": [
+      "left-hander",
+      "all-rounder",
+      "spin",
+      "match-winner",
+      "captain"
+    ],
+    "bio": "Current DC captain in the official IPL 2026 squad.",
+    "achievements": [
+      "India all-rounder",
+      "Three-dimensional T20 player"
+    ],
+    "introTag": "the current captain",
+    "stats": {
+      "matches": 150,
+      "runs": 1784,
+      "wickets": 123,
+      "strikeRate": 133.1,
+      "battingAverage": 22.8,
+      "bestPerformance": "66* and 2/13 vs RR"
+    },
+    "id": "dc-axar-patel",
+    "voiceIntro": "Hey, I'm Axar Patel, the current captain for DC."
+  },
+  {
+    "id": "dc-sameer-rizvi",
+    "name": "Sameer Rizvi",
+    "teamId": "dc",
+    "role": "All-Rounder",
+    "jerseyNumber": 10,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Sameer Rizvi, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "dc-ashutosh-sharma",
+    "name": "Ashutosh Sharma",
+    "teamId": "dc",
+    "role": "All-Rounder",
+    "jerseyNumber": 11,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Ashutosh Sharma, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "dc-nitish-rana",
+    "name": "Nitish Rana",
+    "teamId": "dc",
+    "role": "All-Rounder",
+    "jerseyNumber": 16,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "traits": [
+      "all-rounder",
+      "match-winner"
+    ],
+    "bio": "All-rounder in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the all-round option",
+    "voiceIntro": "Hey, I'm Nitish Rana, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 120,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "dc-mitchell-starc",
+    "name": "Mitchell Starc",
+    "teamId": "dc",
+    "role": "Bowler",
+    "jerseyNumber": 17,
+    "country": "Australia",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Mitchell Starc, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "T. Natarajan",
+    "teamId": "dc",
+    "role": "Bowler",
+    "jerseyNumber": 4,
+    "country": "India",
+    "age": 35,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "traits": [
+      "left-hander",
+      "pace",
+      "death-bowler",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Yorker specialist",
+      "India pace option"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 61,
+      "runs": 12,
+      "wickets": 67,
+      "strikeRate": 46.2,
+      "battingAverage": 8.4,
+      "bestPerformance": "4/19 vs DC"
+    },
+    "id": "dc-t-natarajan",
+    "voiceIntro": "Hey, I'm T. Natarajan, an official 2026 squad member for DC."
+  },
+  {
+    "id": "dc-mukesh-kumar",
+    "name": "Mukesh Kumar",
+    "teamId": "dc",
+    "role": "Bowler",
+    "jerseyNumber": 19,
+    "country": "India",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "match-winner"
+    ],
+    "bio": "Bowler in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Mukesh Kumar, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "id": "dc-dushmantha-chameera",
+    "name": "Dushmantha Chameera",
+    "teamId": "dc",
+    "role": "Bowler",
+    "jerseyNumber": 20,
+    "country": "Sri Lanka",
+    "age": 25,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "traits": [
+      "pace",
+      "foreign"
+    ],
+    "bio": "Bowler in the official DC IPL 2026 squad.",
+    "achievements": [
+      "Official IPL 2026 squad member"
+    ],
+    "introTag": "the bowling option",
+    "voiceIntro": "Hey, I'm Dushmantha Chameera, an official 2026 squad member for DC.",
+    "stats": {
+      "matches": 0,
+      "runs": 0,
+      "wickets": 0,
+      "strikeRate": 0,
+      "battingAverage": 0,
+      "bestPerformance": "2026 squad member"
+    }
+  },
+  {
+    "name": "Kuldeep Yadav",
+    "teamId": "dc",
+    "role": "Bowler",
+    "jerseyNumber": 23,
+    "country": "India",
+    "age": 31,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm chinaman",
+    "traits": [
+      "left-hander",
+      "spin",
+      "mystery-spinner",
+      "match-winner",
+      "pace"
+    ],
+    "bio": "Bowler in the official DC IPL 2026 squad.",
+    "achievements": [
+      "India wrist-spinner",
+      "Middle-over wicket taker"
+    ],
+    "introTag": "the bowling option",
+    "stats": {
+      "matches": 84,
+      "runs": 103,
+      "wickets": 96,
+      "strikeRate": 44.5,
+      "battingAverage": 11.2,
+      "bestPerformance": "4/14 vs KKR"
+    },
+    "id": "dc-kuldeep-yadav",
+    "voiceIntro": "Hey, I'm Kuldeep Yadav, an official 2026 squad member for DC."
+  }
+]
