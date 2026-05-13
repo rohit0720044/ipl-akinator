@@ -8,11 +8,227 @@ const ANSWER_WEIGHTS = {
   no: 0
 } as const;
 
-const ADVANCED_IPL_QUESTIONS: QuestionDefinition[] = [
+const GEMINI_BASE_QUESTION_TEMPLATES: QuestionDefinition[] = [
   {
-    id: "stats-ipl-veteran-100-matches",
+    id: "gemini-role-batsman",
+    prompt: "Is your player mainly known as a batsman?",
+    description: "Gemini can use this broad role clue to split batters from bowlers and all-rounders.",
+    category: "role",
+    priority: 5,
+    rule: {
+      field: "role",
+      operator: "equals",
+      value: "Batsman"
+    }
+  },
+  {
+    id: "gemini-role-bowler",
+    prompt: "Is your player primarily a bowler?",
+    description: "Gemini can use this broad role clue to isolate bowling specialists.",
+    category: "role",
+    priority: 5,
+    rule: {
+      field: "role",
+      operator: "equals",
+      value: "Bowler"
+    }
+  },
+  {
+    id: "gemini-role-keeper",
+    prompt: "Does your player keep wickets?",
+    description: "Gemini can use this clue to identify wicketkeeper-batters.",
+    category: "role",
+    priority: 5,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "wicketkeeper"
+    }
+  },
+  {
+    id: "gemini-role-allrounder",
+    prompt: "Is your player a genuine all-rounder?",
+    description: "Gemini can use this clue to separate multi-skill IPL players.",
+    category: "role",
+    priority: 5,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "all-rounder"
+    }
+  },
+  {
+    id: "gemini-identity-indian",
+    prompt: "Is your player Indian or international?",
+    description: "Gemini can use this broad nationality clue to start narrowing the pool.",
+    category: "identity",
+    priority: 6,
+    rule: {
+      field: "country",
+      operator: "equals",
+      value: "India"
+    }
+  },
+  {
+    id: "gemini-identity-overseas",
+    prompt: "Is your player an overseas cricketer?",
+    description: "Gemini can use this broad overseas-player clue early in the game.",
+    category: "identity",
+    priority: 5,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "foreign"
+    }
+  },
+  {
+    id: "gemini-career-active",
+    prompt: "Is your player active or retired?",
+    description: "Gemini can use this career-status clue to split current players from legends.",
+    category: "career",
+    priority: 5,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "active"
+    }
+  },
+  {
+    id: "gemini-career-current-captain",
+    prompt: "Is your player currently an IPL captain?",
+    description: "Gemini can use this leadership clue for current captain profiles.",
+    category: "career",
+    priority: 5,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "current-captain"
+    }
+  },
+  {
+    id: "gemini-career-captain",
+    prompt: "Has your player captained an IPL side?",
+    description: "Gemini can use this leadership clue for current and former captains.",
+    category: "career",
+    priority: 4,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "captain"
+    }
+  },
+  {
+    id: "gemini-career-legend",
+    prompt: "Is your player considered an IPL legend?",
+    description: "Gemini can use this legacy clue for iconic IPL names.",
+    category: "career",
+    priority: 4,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "legend"
+    }
+  },
+  {
+    id: "gemini-style-lefty",
+    prompt: "Is your player left-handed with the bat?",
+    description: "Gemini can use this batting-style clue to split common player profiles.",
+    category: "style",
+    priority: 4,
+    rule: {
+      field: "battingStyle",
+      operator: "contains",
+      value: "Left-hand"
+    }
+  },
+  {
+    id: "gemini-style-opener",
+    prompt: "Does your player usually bat near the top of the order?",
+    description: "Gemini can use this batting-position clue for openers and top-order players.",
+    category: "style",
+    priority: 4,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "opener"
+    }
+  },
+  {
+    id: "gemini-style-finisher",
+    prompt: "Is your player famous for finishing innings?",
+    description: "Gemini can use this role clue for death-over hitters and finishers.",
+    category: "style",
+    priority: 4,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "finisher"
+    }
+  },
+  {
+    id: "gemini-style-aggressive",
+    prompt: "Is your player known for aggressive batting?",
+    description: "Gemini can use this intent clue for attacking batters.",
+    category: "style",
+    priority: 3,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "aggressive"
+    }
+  },
+  {
+    id: "gemini-style-anchor",
+    prompt: "Is your player more of a calm anchor batter?",
+    description: "Gemini can use this clue for consistent run accumulators.",
+    category: "style",
+    priority: 3,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "anchor"
+    }
+  },
+  {
+    id: "gemini-style-pace",
+    prompt: "Is your player known for pace bowling?",
+    description: "Gemini can use this clue to identify fast bowlers and seam all-rounders.",
+    category: "style",
+    priority: 4,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "pace"
+    }
+  },
+  {
+    id: "gemini-style-spin",
+    prompt: "Is your player known for spin bowling?",
+    description: "Gemini can use this clue to identify spinners and spin all-rounders.",
+    category: "style",
+    priority: 4,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "spin"
+    }
+  },
+  {
+    id: "gemini-bowling-death",
+    prompt: "Would fans associate your player with death-over bowling?",
+    description: "Gemini can use this specialist bowling clue once bowlers are likely.",
+    category: "style",
+    priority: 4,
+    rule: {
+      field: "traits",
+      operator: "includes",
+      value: "death-bowler"
+    }
+  },
+  {
+    id: "gemini-stats-ipl-veteran-100-matches",
     prompt: "Has your player played more than 100 IPL matches?",
-    description: "Uses IPL experience to separate veterans from newer stars.",
+    description: "Gemini can use IPL experience to separate veterans from newer stars.",
     category: "stats",
     priority: 4,
     rule: {
@@ -22,9 +238,9 @@ const ADVANCED_IPL_QUESTIONS: QuestionDefinition[] = [
     }
   },
   {
-    id: "stats-ipl-elite-runs",
+    id: "gemini-stats-ipl-elite-runs",
     prompt: "Has your player scored more than 3000 IPL runs?",
-    description: "Targets established IPL run-scorers and famous top-order names.",
+    description: "Gemini can target established IPL run-scorers and famous top-order names.",
     category: "stats",
     priority: 4,
     rule: {
@@ -34,9 +250,9 @@ const ADVANCED_IPL_QUESTIONS: QuestionDefinition[] = [
     }
   },
   {
-    id: "stats-ipl-elite-wickets",
+    id: "gemini-stats-ipl-elite-wickets",
     prompt: "Has your player taken more than 100 IPL wickets?",
-    description: "Targets proven wicket-taking bowlers and bowling all-rounders.",
+    description: "Gemini can target proven wicket-taking bowlers and bowling all-rounders.",
     category: "stats",
     priority: 4,
     rule: {
@@ -46,9 +262,9 @@ const ADVANCED_IPL_QUESTIONS: QuestionDefinition[] = [
     }
   },
   {
-    id: "stats-ipl-high-strike-rate",
+    id: "gemini-stats-ipl-high-strike-rate",
     prompt: "Does your player have an IPL strike rate above 145?",
-    description: "Finds explosive hitters and high-impact finishers.",
+    description: "Gemini can find explosive hitters and high-impact finishers.",
     category: "stats",
     priority: 3,
     rule: {
@@ -58,13 +274,37 @@ const ADVANCED_IPL_QUESTIONS: QuestionDefinition[] = [
     }
   },
   {
-    id: "stats-ipl-strong-average",
+    id: "gemini-stats-ipl-strong-average",
     prompt: "Does your player average above 35 with the bat in IPL?",
-    description: "Highlights reliable run-makers and consistent anchors.",
+    description: "Gemini can highlight reliable run-makers and consistent anchors.",
     category: "stats",
     priority: 3,
     rule: {
       field: "stats.battingAverage",
+      operator: "gt",
+      value: 35
+    }
+  },
+  {
+    id: "gemini-age-under-30",
+    prompt: "Is your player under 30 years old?",
+    description: "Gemini can use this age clue to separate rising stars from veterans.",
+    category: "identity",
+    priority: 3,
+    rule: {
+      field: "age",
+      operator: "lt",
+      value: 30
+    }
+  },
+  {
+    id: "gemini-age-over-35",
+    prompt: "Is your player older than 35?",
+    description: "Gemini can use this age clue for senior stars and retired legends.",
+    category: "identity",
+    priority: 3,
+    rule: {
+      field: "age",
       operator: "gt",
       value: 35
     }
@@ -158,10 +398,6 @@ export function pickBestQuestion(
   const ranked = rankCandidates(players, questions, answers, teamId);
   const unanswered = questions.filter((question) => !answers.some((answer) => answer.questionId === question.id));
 
-  if (answers.length === 0) {
-    return unanswered.find((question) => question.id === "identity-indian-or-international") ?? unanswered[0] ?? null;
-  }
-
   const candidatePool = ranked.slice(0, Math.max(8, Math.ceil(ranked.length * 0.55)));
   const topConfidence = ranked[0]?.confidence ?? 0;
 
@@ -206,18 +442,50 @@ export function shouldMakeGuess(candidates: CandidateScore[], askedCount: number
   return first.confidence > 0.42 || gap > 0.18 || askedCount >= 8;
 }
 
-export function buildAdvancedQuestionBank(players: Player[], baseQuestions: QuestionDefinition[]) {
+export function buildGeminiQuestionBank(players: Player[]) {
   const questions = new Map<string, QuestionDefinition>();
 
-  for (const question of [...baseQuestions, ...ADVANCED_IPL_QUESTIONS]) {
+  for (const question of GEMINI_BASE_QUESTION_TEMPLATES) {
     questions.set(question.id, question);
   }
 
+  for (const teamId of new Set(players.map((player) => player.teamId))) {
+    questions.set(`gemini-team-${teamId}`, {
+      id: `gemini-team-${teamId}`,
+      prompt: `Does your player represent ${teamId.toUpperCase()}?`,
+      description: "Gemini can use this generated team clue when franchise identity becomes useful.",
+      category: "team",
+      priority: 4,
+      rule: {
+        field: "teamId",
+        operator: "equals",
+        value: teamId
+      }
+    });
+  }
+
+  for (const country of new Set(players.map((player) => player.country).filter(Boolean))) {
+    const countryKey = normalizeText(country).replace(/\s+/g, "-");
+
+    questions.set(`gemini-country-${countryKey}`, {
+      id: `gemini-country-${countryKey}`,
+      prompt: `Is your player from ${country}?`,
+      description: "Gemini can use this generated country clue for Akinator-style narrowing.",
+      category: "identity",
+      priority: country === "India" ? 5 : 4,
+      rule: {
+        field: "country",
+        operator: "equals",
+        value: country
+      }
+    });
+  }
+
   for (const jerseyNumber of new Set(players.map((player) => player.jerseyNumber).filter(Boolean))) {
-    questions.set(`ai-jersey-${jerseyNumber}`, {
-      id: `ai-jersey-${jerseyNumber}`,
+    questions.set(`gemini-jersey-${jerseyNumber}`, {
+      id: `gemini-jersey-${jerseyNumber}`,
       prompt: `Does your player wear jersey number ${jerseyNumber}?`,
-      description: "A high-signal jersey-number clue generated from the current IPL player database.",
+      description: "Gemini can use this high-signal jersey-number clue from the player database.",
       category: "player",
       priority: 4,
       rule: {
@@ -229,10 +497,10 @@ export function buildAdvancedQuestionBank(players: Player[], baseQuestions: Ques
   }
 
   for (const player of players) {
-    questions.set(`ai-player-${player.id}`, {
-      id: `ai-player-${player.id}`,
+    questions.set(`gemini-player-${player.id}`, {
+      id: `gemini-player-${player.id}`,
       prompt: `Are you thinking of ${player.name}?`,
-      description: `Direct identity check generated after the AI shortlist points toward ${player.name}.`,
+      description: `Gemini can use this direct identity check only after narrowing toward ${player.name}.`,
       category: "player",
       priority: 2,
       rule: {
@@ -245,10 +513,10 @@ export function buildAdvancedQuestionBank(players: Player[], baseQuestions: Ques
     const signatureAchievement = player.achievements[0];
 
     if (signatureAchievement) {
-      questions.set(`ai-achievement-${player.id}`, {
-        id: `ai-achievement-${player.id}`,
+      questions.set(`gemini-achievement-${player.id}`, {
+        id: `gemini-achievement-${player.id}`,
         prompt: `Is your player linked with ${signatureAchievement.toLowerCase()}?`,
-        description: "A player-profile clue generated from achievements in the IPL database.",
+        description: "Gemini can use this generated achievement clue from the IPL player profile.",
         category: "player",
         priority: 3,
         rule: {

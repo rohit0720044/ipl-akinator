@@ -1,6 +1,7 @@
 import { PageShell } from "@/components/layout/page-shell";
 import { GameShell } from "@/components/game/game-shell";
-import { getPlayers, getQuestions } from "@/lib/server/store";
+import { buildGeminiQuestionBank } from "@/lib/game/engine";
+import { getPlayers } from "@/lib/server/store";
 import { TeamId } from "@/types";
 
 export const dynamic = "force-dynamic";
@@ -13,7 +14,8 @@ interface PlayPageProps {
 }
 
 export default async function PlayPage({ searchParams }: PlayPageProps) {
-  const [players, questions, resolvedSearch] = await Promise.all([getPlayers(), getQuestions(), searchParams]);
+  const [players, resolvedSearch] = await Promise.all([getPlayers(), searchParams]);
+  const questions = buildGeminiQuestionBank(players);
 
   return (
     <PageShell>

@@ -1,14 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import {
-  buildAdvancedQuestionBank,
+  buildGeminiQuestionBank,
   buildGuessStory,
   pickBestQuestion,
   rankCandidates,
   shouldMakeGuess
 } from "@/lib/game/engine";
-import { humanizeQuestion, dramaticReveal } from "@/lib/server/openai";
-import { getPlayers, getQuestions } from "@/lib/server/store";
+import { chooseGeminiMove, dramaticRevealWithGemini, humanizeQuestionWithGemini } from "@/lib/server/gemini";
+import { getPlayers } from "@/lib/server/store";
 import { GameAnswer, TeamId } from "@/types";
 
 export const dynamic = "force-dynamic";
@@ -22,10 +22,10 @@ interface RequestPayload {
 export async function POST(request: NextRequest) {
   const payload = (await request.json()) as RequestPayload;
   const answers = payload.answers ?? [];
-  const [players, questions] = await Promise.all([getPlayers(), getQuestions()]);
-  const advancedQuestions = buildAdvancedQuestionBank(players, questions);
+  const players = await getPlayers();
+  const geminiQuestions = buildGeminiQuestionBank(players);
 
-  const ranked = rankCandidates(players, advancedQuestions, answers, payload.teamId);
+  const ranked = rankCandidates(players, geminiQuestions, answers, payload.teamId);
 
   if (ranked.length === 0) {
     return NextResponse.json(
@@ -36,29 +36,48 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  if (shouldMakeGuess(ranked, answers.length)) {
-    const guess = ranked[0].player;
+  const localQuestion = pickBestQuestion(players, geminiQuestions, answers, payload.teamId) ?? geminiQuestions[0];
+  const localShouldGuess = shouldMakeGuess(ranked, answers.length);
+  const geminiMove = await chooseGeminiMove({
+    ranked,
+    questions: geminiQuestions,
+    answers,
+    teamId: payload.teamId,
+    localQuestion
+  });
+
+  const geminiGuess =
+    geminiMove?.mode === "guess" && (localShouldGuess || answers.length >= 4) ? geminiMove.player : null;
+
+  if (geminiGuess || localShouldGuess) {
+    const guess = geminiGuess ?? ranked[0].player;
 
     return NextResponse.json({
       mode: "guess" as const,
       guess,
-      dramaticLine: await dramaticReveal(guess),
+      dramaticLine:
+        (await dramaticRevealWithGemini(guess)) ??
+        `I can feel it now. The player in your mind is ${guess.name}.`,
       story: buildGuessStory(guess),
       confidence: ranked[0].confidence,
       candidates: ranked.slice(0, 5).map((candidate) => candidate.player),
-      questionBankSize: advancedQuestions.length
+      questionBankSize: geminiQuestions.length
     });
   }
 
-  const question = pickBestQuestion(players, advancedQuestions, answers, payload.teamId) ?? advancedQuestions[0];
+  const geminiQuestion =
+    geminiMove?.mode === "question"
+      ? geminiQuestions.find((questionOption) => questionOption.id === geminiMove.questionId)
+      : null;
+  const question = geminiQuestion ?? localQuestion;
   const humanPrompt =
-    question.id === "identity-indian-or-international"
-      ? question.prompt
-      : await humanizeQuestion(
+    geminiQuestion && geminiMove?.mode === "question" && geminiMove.humanPrompt
+      ? geminiMove.humanPrompt
+      : (await humanizeQuestionWithGemini(
           question,
           ranked.slice(0, 5).map((candidate) => candidate.player),
           answers
-        );
+        )) ?? question.prompt;
 
   return NextResponse.json({
     mode: "question" as const,
@@ -67,6 +86,6 @@ export async function POST(request: NextRequest) {
     candidates: ranked.slice(0, 5).map((candidate) => candidate.player),
     remaining: ranked.length,
     confidence: ranked[0].confidence,
-    questionBankSize: advancedQuestions.length
+    questionBankSize: geminiQuestions.length
   });
 }

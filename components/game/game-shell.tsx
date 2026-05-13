@@ -33,6 +33,24 @@ const answerButtons: Array<{ label: string; value: AnswerValue }> = [
   { label: "No", value: "no" }
 ];
 
+function getAnswerButtons(question?: QuestionDefinition) {
+  if (question?.id === "gemini-career-active") {
+    return [
+      { label: "Active", value: "yes" },
+      { label: "Retired", value: "no" }
+    ] satisfies Array<{ label: string; value: AnswerValue }>;
+  }
+
+  if (question?.id === "gemini-identity-indian") {
+    return [
+      { label: "Indian", value: "yes" },
+      { label: "International", value: "no" }
+    ] satisfies Array<{ label: string; value: AnswerValue }>;
+  }
+
+  return answerButtons;
+}
+
 interface GameResponseQuestion {
   mode: "question";
   question: QuestionDefinition;
@@ -157,6 +175,7 @@ export function GameShell({ players, questions, initialTeamId, mode }: GameShell
   const confidenceLabel =
     response && `${Math.round(response.confidence * 100)}% match confidence`;
   const questionBankSize = response?.questionBankSize ?? questions.length;
+  const currentAnswerButtons = response?.mode === "question" ? getAnswerButtons(response.question) : answerButtons;
 
   return (
     <div className="grid gap-6 xl:grid-cols-[1.15fr,0.85fr]">
@@ -283,8 +302,10 @@ export function GameShell({ players, questions, initialTeamId, mode }: GameShell
                 </h2>
                 <p className="mt-4 max-w-2xl text-sm leading-6 text-white/68">{response.question.description}</p>
 
-                <div className="mt-8 grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
-                  {answerButtons.map((answer) => (
+                <div className={`mt-8 grid gap-3 ${
+                  currentAnswerButtons.length === 2 ? "sm:grid-cols-2" : "sm:grid-cols-2 xl:grid-cols-5"
+                }`}>
+                  {currentAnswerButtons.map((answer) => (
                     <button
                       key={answer.value}
                       type="button"

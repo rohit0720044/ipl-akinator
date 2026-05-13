@@ -6,8 +6,8 @@ A futuristic IPL player guessing web app inspired by Akinator, built with Next.j
 
 - Full-screen neon stadium atmosphere with a live 3D scene
 - Team hubs for CSK, RCB, MI, GT, KKR, SRH, RR, PBKS, LSG, and DC
-- Akinator-style questioning flow powered by a decision-tree engine
-- Optional OpenAI question rewriting and reveal lines with `OPENAI_API_KEY`
+- Akinator-style questioning flow powered by Gemini decisions and dynamic scoring
+- Gemini thinking logic for next-question analysis, phrasing, and reveal lines
 - Browser speech synthesis for player intros and spoken questions
 - Dramatic reveal card with stats, achievements, and crowd-style audio
 - File-backed admin panel for editing players and custom questions
@@ -23,14 +23,14 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Environment Variables
 
-Create a `.env.local` file if you want OpenAI-powered question phrasing:
+Create a `.env.local` file if you want Gemini-powered reasoning:
 
 ```bash
-OPENAI_API_KEY=your_key_here
-OPENAI_MODEL=gpt-4.1-mini
+GEMINI_API_KEY=your_key_here
+GEMINI_MODEL=gemini-2.5-flash
 ```
 
-If no key is provided, the app uses the built-in deterministic question engine only.
+If no Gemini key is provided, the app falls back to the built-in deterministic question scorer.
 
 ## Project Structure
 
@@ -40,7 +40,7 @@ components/           Reusable UI, game, player, and layout components
 hooks/                Browser speech and reveal audio helpers
 lib/data/             Teams and seeded IPL player/question data
 lib/game/             Guessing engine and ranking logic
-lib/server/           File-backed runtime store and OpenAI helpers
+lib/server/           File-backed runtime store and Gemini provider helpers
 data/runtime/         Mutable JSON store used by the admin panel
 types/                Shared TypeScript models
 ```
@@ -48,5 +48,6 @@ types/                Shared TypeScript models
 ## Notes
 
 - The seed roster is meant to power the experience out of the box and can be edited from `/admin`.
+- Gameplay builds questions dynamically from player data; saved default/admin questions are not used in the play flow.
 - Player portraits fall back to hologram cards until you upload real images from the admin panel.
 - The runtime data store writes to local JSON files, which is great for local prototyping and demo deployments.
